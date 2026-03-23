@@ -18,14 +18,18 @@ export default function SongPlayer({ song, onBack, onComplete }) {
   const playerRef = useRef(null);
   const playerContainerRef = useRef(null);
   const [currentTime, setCurrentTime] = useState(0);
+  const [offset, setOffset] = useState(0);
+  const [tapMode, setTapMode] = useState(false);
   const [popup, setPopup] = useState(null);
   const [showQuiz, setShowQuiz] = useState(false);
-  const [quizTriggered, setQuizTriggered] = useState(false);
+  const [openLearnIdx, setOpenLearnIdx] = useState(null);
   const intervalRef = useRef(null);
   const activeRowRef = useRef(null);
 
+  // Compute active lyric index accounting for offset
+  const adjustedTime = currentTime + offset;
   const activeIdx = song.lyrics.reduce((acc, line, i) => {
-    return currentTime >= line.time ? i : acc;
+    return adjustedTime >= line.time ? i : acc;
   }, -1);
 
   useEffect(() => {
@@ -36,7 +40,6 @@ export default function SongPlayer({ song, onBack, onComplete }) {
 
   useEffect(() => {
     let destroyed = false;
-
     loadYTApi().then(() => {
       if (destroyed) return;
       playerRef.current = new window.YT.Player(playerContainerRef.current, {
@@ -48,17 +51,7 @@ export default function SongPlayer({ song, onBack, onComplete }) {
               intervalRef.current = setInterval(() => {
                 const t = playerRef.current.getCurrentTime();
                 setCurrentTime(t);
-                const lastTime = song.lyrics[song.lyrics.length - 1].time;
-                if (t >= lastTime + 8) {
-                  setQuizTriggered((prev) => {
-                    if (!prev) {
-                      setShowQuiz(true);
-                      onComplete(song.id);
-                    }
-                    return true;
-                  });
-                }
-              }, 300);
+              }, 250);
             } else {
               clearInterval(intervalRef.current);
             }
@@ -66,7 +59,6 @@ export default function SongPlayer({ song, onBack, onComplete }) {
         },
       });
     });
-
     return () => {
       destroyed = true;
       clearInterval(intervalRef.current);
@@ -82,6 +74,24 @@ export default function SongPlayer({ song, onBack, onComplete }) {
     setPopup({ vocab, position });
   }, []);
 
+  function handleTap() {
+    if (!playerRef.current) return;
+    const videoTime = playerRef.current.getCurrentTime();
+    const firstLyricTime = song.lyrics[0].time;
+    setOffset(videoTime - firstLyricTime);
+    setTapMode(false);
+  }
+
+  function handleToggleLearn(idx) {
+    setOpenLearnIdx((prev) => (prev === idx ? null : idx));
+  }
+
+  const offsetLabel = offset === 0
+    ? '0s'
+    : offset > 0
+    ? `+${offset.toFixed(1)}s`
+    : `${offset.toFixed(1)}s`;
+
   return (
     <div className="player">
       <button className="player__back" onClick={onBack}>← Back to Library</button>
@@ -95,6 +105,47 @@ export default function SongPlayer({ song, onBack, onComplete }) {
         <div ref={playerContainerRef} className="player__video" />
       </div>
 
+      {/* Sync controls */}
+      <div className="sync-bar">
+        <div className="sync-offset">
+          <label className="sync-label">Lyric offset</label>
+          <input
+            type="range"
+            className="sync-slider"
+            min={-10}
+            max={10}
+            step={0.5}
+            value={offset}
+            onChange={(e) => setOffset(parseFloat(e.target.value))}
+          />
+          <span className="sync-value">{offsetLabel}</span>
+          <button
+            className="sync-reset"
+            onClick={() => setOffset(0)}
+            disabled={offset === 0}
+          >
+            Reset
+          </button>
+        </div>
+        <div className="sync-tap-area">
+          {tapMode ? (
+            <>
+              <span className="sync-tap-hint">
+                Tap when you hear: <em>「{song.lyrics[0].jp}」</em>
+              </span>
+              <button className="sync-tap-btn sync-tap-btn--active" onClick={handleTap}>
+                TAP NOW
+              </button>
+              <button className="sync-tap-cancel" onClick={() => setTapMode(false)}>Cancel</button>
+            </>
+          ) : (
+            <button className="sync-tap-btn" onClick={() => setTapMode(true)}>
+              🎵 Tap to Sync
+            </button>
+          )}
+        </div>
+      </div>
+
       <div className="player__lyrics-wrap">
         <table className="lyrics-table">
           <thead>
@@ -102,6 +153,7 @@ export default function SongPlayer({ song, onBack, onComplete }) {
               <th>Japanese</th>
               <th>Romaji</th>
               <th>English</th>
+              <th></th>
             </tr>
           </thead>
           <tbody>
@@ -113,15 +165,23 @@ export default function SongPlayer({ song, onBack, onComplete }) {
                 vocab={song.vocab}
                 active={i === activeIdx}
                 onWordClick={handleWordClick}
+                learnOpen={openLearnIdx === i}
+                onToggleLearn={() => handleToggleLearn(i)}
               />
             ))}
           </tbody>
         </table>
       </div>
 
-      <div className="player__quiz-bar">
-        <button className="player__quiz-btn" onClick={() => setShowQuiz(true)}>
-          Vocab Quiz →
+      <div className="player__bottom-bar">
+        <button
+          className="player__quiz-btn"
+          onClick={() => {
+            onComplete(song.id);
+            setShowQuiz(true);
+          }}
+        >
+          📝 Take Vocab Quiz
         </button>
       </div>
 
