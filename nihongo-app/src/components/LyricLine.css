@@ -1,0 +1,47 @@
+.lyric-row {
+  transition: background 0.3s;
+}
+
+.lyric-row--active td {
+  background: rgba(232, 69, 106, 0.15);
+  border-left: 3px solid #e8456a;
+}
+
+.lyric-row--active .lyric-cell--jp {
+  color: #ff6b8a;
+  font-weight: 700;
+}
+
+.lyric-cell {
+  padding: 10px 14px;
+  vertical-align: top;
+  font-size: 0.95rem;
+  color: #c8d0e8;
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+  line-height: 1.5;
+}
+
+.lyric-cell--jp {
+  font-size: 1.05rem;
+  color: #e8eaf6;
+  min-width: 200px;
+}
+
+.lyric-cell--romaji {
+  color: #a0aabf;
+  font-style: italic;
+}
+
+.lyric-cell--en {
+  color: #8890a8;
+}
+
+.lyric-word {
+  cursor: pointer;
+  border-bottom: 1.5px dashed #e8456a;
+  transition: color 0.15s;
+}
+
+.lyric-word:hover {
+  color: #e8456a;
+}

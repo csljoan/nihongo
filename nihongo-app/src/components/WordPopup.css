@@ -1,0 +1,44 @@
+.word-popup {
+  position: fixed;
+  z-index: 1000;
+  background: #1e2a4a;
+  border: 1px solid #e8456a;
+  border-radius: 10px;
+  padding: 14px 18px 12px;
+  min-width: 180px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.5);
+  transform: translateX(-50%);
+}
+
+.word-popup__close {
+  position: absolute;
+  top: 6px;
+  right: 10px;
+  background: none;
+  border: none;
+  color: #aaa;
+  font-size: 18px;
+  cursor: pointer;
+  line-height: 1;
+  padding: 0;
+}
+
+.word-popup__close:hover { color: #fff; }
+
+.word-popup__word {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 4px;
+}
+
+.word-popup__reading {
+  font-size: 0.85rem;
+  color: #e8456a;
+  margin-bottom: 6px;
+}
+
+.word-popup__meaning {
+  font-size: 0.9rem;
+  color: #c8d0e8;
+}

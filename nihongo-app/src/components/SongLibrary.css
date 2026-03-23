@@ -1,0 +1,119 @@
+.library {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.library__header {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.library__logo {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.library__logo-jp {
+  font-size: 2.8rem;
+  font-weight: 800;
+  color: #fff;
+  letter-spacing: -1px;
+}
+
+.library__logo-en {
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: #e8456a;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+.library__subtitle {
+  color: #6878a0;
+  font-size: 1rem;
+  margin: 0;
+}
+
+.library__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 22px;
+}
+
+.song-card {
+  background: #0f1a35;
+  border: 1.5px solid rgba(255,255,255,0.07);
+  border-radius: 14px;
+  overflow: hidden;
+  cursor: pointer;
+  text-align: left;
+  padding: 0;
+  position: relative;
+  transition: transform 0.2s, border-color 0.2s, box-shadow 0.2s;
+}
+
+.song-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(232, 69, 106, 0.4);
+  box-shadow: 0 12px 40px rgba(232, 69, 106, 0.15);
+}
+
+.song-card--done {
+  border-color: rgba(46, 204, 113, 0.4);
+}
+
+.song-card__check {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: #2ecc71;
+  color: #fff;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 700;
+  z-index: 2;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+
+.song-card__thumb {
+  width: 100%;
+  aspect-ratio: 16/9;
+  background-size: cover;
+  background-position: center;
+  background-color: #0a1025;
+}
+
+.song-card__body {
+  padding: 14px 16px 18px;
+}
+
+.song-card__level {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: #fff;
+  padding: 2px 8px;
+  border-radius: 4px;
+  letter-spacing: 0.06em;
+  margin-bottom: 8px;
+}
+
+.song-card__title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 4px;
+}
+
+.song-card__artist {
+  font-size: 0.85rem;
+  color: #6878a0;
+}

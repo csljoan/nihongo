@@ -1,0 +1,29 @@
+{
+  "id": "tattoo",
+  "title": "TATTOO",
+  "artist": "Official髭男dism",
+  "youtubeId": "oLrp9uTa9gw",
+  "level": "N4",
+  "lyrics": [
+    { "time": 4,  "jp": "大丈夫、痛みにとっても弱いから", "romaji": "Daijoubu, itami ni tottemo yowai kara", "en": "It's okay, because I'm very weak when it comes to pain" },
+    { "time": 9,  "jp": "大丈夫、憧れは時に憧れのまんま", "romaji": "Daijoubu, akogare wa toki ni akogare no manma", "en": "It's okay, sometimes our yearnings remain as they are" },
+    { "time": 14, "jp": "愛、ジョーク、それとたまにキツめのネガティブ", "romaji": "Ai, jooku, sore to tama ni kitsume no negatibu", "en": "Love, jokes, and sometimes a bit of negativity" },
+    { "time": 19, "jp": "それでいつも元通りさ", "romaji": "Sore de itsumo moto doori sa", "en": "That's how we always go back to being ourselves" },
+    { "time": 24, "jp": "君と僕との間柄なら　そりゃ出くわす問題もさまざま", "romaji": "Kimi to boku to no aidagara nara sorya dekuwasu mondai mo samazama", "en": "If it's between you and me, we'll encounter all kinds of problems" },
+    { "time": 32, "jp": "だから隣にいりゃ旅の道すがら　どんな闇からも命からがら", "romaji": "Dakara tonari ni irya tabi no michisugara donna yami kara mo inochi karagara", "en": "But if we're side by side on our journey, we'll barely escape any darkness" },
+    { "time": 41, "jp": "助けるよ　助けてよ　My Buddy Darling", "romaji": "Tasukeru yo tasukete yo My Buddy Darling", "en": "I'll save you, save me, My Buddy Darling" },
+    { "time": 47, "jp": "SOSが不器用でも気にしないからもう", "romaji": "SOS ga bukiyou demo ki ni shinai kara mou", "en": "Even if your SOS is clumsy, I don't mind anymore" },
+    { "time": 53, "jp": "素っ気ないくらいで僕らはちょうどいいんじゃない？", "romaji": "Sokkenai kurai de bokura wa choudo iin janai?", "en": "Isn't it just right for us to be a little distant?" },
+    { "time": 59, "jp": "きっと涙も言葉もおまけでもいいんじゃない？", "romaji": "Kitto namida mo kotoba mo omake demo iin janai?", "en": "Maybe tears and words are just extras?" }
+  ],
+  "vocab": [
+    { "word": "大丈夫", "reading": "だいじょうぶ", "meaning": "It's okay / I'm fine" },
+    { "word": "痛み", "reading": "いたみ", "meaning": "pain" },
+    { "word": "憧れ", "reading": "あこがれ", "meaning": "longing, yearning" },
+    { "word": "間柄", "reading": "あいだがら", "meaning": "relationship, terms" },
+    { "word": "問題", "reading": "もんだい", "meaning": "problem, issue" },
+    { "word": "命からがら", "reading": "いのちからがら", "meaning": "barely escaping with one's life" },
+    { "word": "不器用", "reading": "ぶきよう", "meaning": "clumsy, awkward" },
+    { "word": "素っ気ない", "reading": "そっけない", "meaning": "cold, curt, indifferent" }
+  ]
+}
