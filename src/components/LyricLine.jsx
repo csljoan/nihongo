@@ -1,4 +1,5 @@
 import { forwardRef } from 'react';
+import { toRomaji } from '../utils/toRomaji.js';
 import './LyricLine.css';
 
 function tokenize(jpText, vocab) {
@@ -89,7 +90,10 @@ function LearnPanel({ learn }) {
             <div key={i} className="breakdown-item">
               <span className="breakdown-word">{item.word}</span>
               {item.reading && (
-                <span className="breakdown-reading">（{item.reading}）</span>
+                <>
+                  <span className="breakdown-reading">（{item.reading}）</span>
+                  <span className="breakdown-romaji">{toRomaji(item.reading)}</span>
+                </>
               )}
               <span className="breakdown-eq">=</span>
               <span className="breakdown-meaning">{item.meaning}</span>

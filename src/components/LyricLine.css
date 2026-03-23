@@ -131,6 +131,12 @@
   font-size: 0.82rem;
 }
 
+.breakdown-romaji {
+  color: #b8960a;
+  font-size: 0.78rem;
+  font-style: italic;
+}
+
 .breakdown-eq {
   color: #4a5580;
   font-size: 0.8rem;
