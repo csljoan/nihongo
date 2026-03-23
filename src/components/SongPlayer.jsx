@@ -112,8 +112,8 @@ export default function SongPlayer({ song, onBack, onComplete }) {
           <input
             type="range"
             className="sync-slider"
-            min={-10}
-            max={10}
+            min={-20}
+            max={20}
             step={0.5}
             value={offset}
             onChange={(e) => setOffset(parseFloat(e.target.value))}
