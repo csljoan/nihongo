@@ -1,0 +1,344 @@
+{
+  "id": "deai",
+  "title": "出逢い",
+  "artist": "安全地帯",
+  "youtubeId": "X-ldwfmlSis",
+  "level": "N5",
+  "lyrics": [
+    {
+      "time": 0,
+      "jp": "連絡はないけど",
+      "romaji": "Renraku wa nai kedo",
+      "en": "There's no word from you, but",
+      "learn": {
+        "breakdown": [
+          { "word": "連絡", "reading": "れんらく", "romaji": "renraku", "meaning": "contact, message, getting in touch" },
+          { "word": "は", "romaji": "wa", "meaning": "topic particle" },
+          { "word": "ない", "romaji": "nai", "meaning": "there isn't, none (negative existence)" },
+          { "word": "けど", "romaji": "kedo", "meaning": "but, however (soft contrast, trails off gently)" }
+        ],
+        "grammar": "〜けど at the end of a clause softens what follows — 'there's no word from you, but...' The sentence deliberately trails off, implying the speaker accepts it without complaint. More gentle than でも (but).",
+        "literal": "Contact topic doesn't-exist, but",
+        "example": {
+          "jp": "連絡はないけど、元気でいてほしい。",
+          "romaji": "Renraku wa nai kedo, genki de ite hoshii.",
+          "en": "There's no word from you, but I hope you're doing well."
+        }
+      }
+    },
+    {
+      "time": 5,
+      "jp": "元気でいますか",
+      "romaji": "Genki de imasu ka",
+      "en": "Are you doing well?",
+      "learn": {
+        "breakdown": [
+          { "word": "元気", "reading": "げんき", "romaji": "genki", "meaning": "healthy, well, energetic, in good spirits" },
+          { "word": "で", "romaji": "de", "meaning": "particle — state/condition connector" },
+          { "word": "います", "romaji": "imasu", "meaning": "to be, to exist (polite present continuous)" },
+          { "word": "か", "romaji": "ka", "meaning": "question particle" }
+        ],
+        "grammar": "元気でいますか is the classic Japanese greeting 'Are you well?'. 元気で + いる = 'being in a state of good health'. The polite form います + か makes it a warm, sincere question rather than a casual one.",
+        "literal": "Well-and-healthy being, question?",
+        "example": {
+          "jp": "最近、元気でいますか？",
+          "romaji": "Saikin, genki de imasu ka?",
+          "en": "Have you been doing well lately?"
+        }
+      }
+    },
+    {
+      "time": 10,
+      "jp": "好きだったあの声",
+      "romaji": "Suki datta ano koe",
+      "en": "That voice I loved so much",
+      "learn": {
+        "breakdown": [
+          { "word": "好き", "reading": "すき", "romaji": "suki", "meaning": "like, love, fond of [な-adjective]" },
+          { "word": "だった", "romaji": "datta", "meaning": "was (past tense of だ — plain past)" },
+          { "word": "あの", "romaji": "ano", "meaning": "that [over there], that [shared memory] — implies nostalgic distance" },
+          { "word": "声", "reading": "こえ", "romaji": "koe", "meaning": "voice" }
+        ],
+        "grammar": "好きだった = 'I used to love / I loved'. Using past tense (だった) rather than 好きな suggests the person is no longer present, not that the feeling has faded. あの (that) carries a nostalgic, shared-memory nuance — 'that voice we both know'.",
+        "literal": "Liked/loved was, that voice",
+        "example": {
+          "jp": "好きだったあの場所に、また行きたい。",
+          "romaji": "Suki datta ano basho ni, mata ikitai.",
+          "en": "I want to go back to that place I loved."
+        }
+      }
+    },
+    {
+      "time": 15,
+      "jp": "耳に残ってる",
+      "romaji": "Mimi ni nokotteru",
+      "en": "It still lingers in my ears",
+      "learn": {
+        "breakdown": [
+          { "word": "耳", "reading": "みみ", "romaji": "mimi", "meaning": "ear" },
+          { "word": "に", "romaji": "ni", "meaning": "particle — location ('in', 'at')" },
+          { "word": "残ってる", "reading": "のこってる", "romaji": "nokotteru", "meaning": "remains, lingers, still there (contracted from 残っている)" }
+        ],
+        "grammar": "〜ている contracts to 〜てる in casual speech and lyrics. 残っている → 残ってる = 'is remaining / still lingers'. 耳に残る is a set expression meaning a sound or melody stays with you — it 'remains in the ear'.",
+        "literal": "Ear in, still-remaining",
+        "example": {
+          "jp": "あのメロディーが耳に残ってる。",
+          "romaji": "Ano merodii ga mimi ni nokotteru.",
+          "en": "That melody is still lingering in my ear."
+        }
+      }
+    },
+    {
+      "time": 22,
+      "jp": "そばにいなくても",
+      "romaji": "Soba ni inakute mo",
+      "en": "Even though you're not by my side",
+      "learn": {
+        "breakdown": [
+          { "word": "そば", "romaji": "soba", "meaning": "side, close by, nearby" },
+          { "word": "に", "romaji": "ni", "meaning": "particle — location" },
+          { "word": "いなくても", "romaji": "inakute mo", "meaning": "even though [you] are not there (negative of いる + ても concessive)" }
+        ],
+        "grammar": "〜なくても = 'even without / even if not'. いない (not there) → いなくても = 'even though not there'. This is the concessive negative form, expressing that the following is true regardless of absence.",
+        "literal": "Side at, not-being even-though",
+        "example": {
+          "jp": "そばにいなくても、気持ちは伝わる。",
+          "romaji": "Soba ni inakute mo, kimochi wa tsutawaru.",
+          "en": "Even though you're not by my side, my feelings get through."
+        }
+      }
+    },
+    {
+      "time": 27,
+      "jp": "抱きしめられて",
+      "romaji": "Dakishimerarete",
+      "en": "Being held, embraced",
+      "learn": {
+        "breakdown": [
+          { "word": "抱きしめられて", "reading": "だきしめられて", "romaji": "dakishimerarete", "meaning": "being embraced, being held tightly (passive て-form of 抱きしめる)" }
+        ],
+        "grammar": "抱きしめる (to embrace tightly) → 抱きしめられる (to be embraced, passive) → 抱きしめられて (て-form, connecting to next line). The passive voice here is gentle — the speaker is receiving warmth, not acting.",
+        "literal": "Being-held-tightly",
+        "example": {
+          "jp": "温かく抱きしめられて、泣いてしまった。",
+          "romaji": "Atatakaku dakishimerarete, naite shimatta.",
+          "en": "Being held warmly, I ended up crying."
+        }
+      }
+    },
+    {
+      "time": 31,
+      "jp": "いたのでしょうか",
+      "romaji": "Ita no deshou ka",
+      "en": "Was I really? I wonder...",
+      "learn": {
+        "breakdown": [
+          { "word": "いた", "romaji": "ita", "meaning": "was, existed (plain past of いる)" },
+          { "word": "の", "romaji": "no", "meaning": "nominalizer / explanatory particle" },
+          { "word": "でしょうか", "romaji": "deshou ka", "meaning": "I wonder... / was it so? (polite conjecture + question)" }
+        ],
+        "grammar": "〜のでしょうか expresses gentle, reflective wondering: 'Was I really being held, even without you there?' It's a question the speaker asks themselves, not the other person. でしょう = 'I suppose / probably', combined with か = wondering aloud.",
+        "literal": "Was [it], I wonder?",
+        "example": {
+          "jp": "あれで良かったのでしょうか。",
+          "romaji": "Are de yokatta no deshou ka.",
+          "en": "I wonder if that was really okay."
+        }
+      }
+    },
+    {
+      "time": 36,
+      "jp": "あなたに伝えたい",
+      "romaji": "Anata ni tsutaetai",
+      "en": "I want to tell you",
+      "learn": {
+        "breakdown": [
+          { "word": "あなた", "romaji": "anata", "meaning": "you (warm, intimate — used for someone special or a lover)" },
+          { "word": "に", "romaji": "ni", "meaning": "particle — indirect object ('to you')" },
+          { "word": "伝えたい", "reading": "つたえたい", "romaji": "tsutaetai", "meaning": "want to tell, want to convey (伝える + たい = desire form)" }
+        ],
+        "grammar": "〜たい is the standard desire form: 伝える (to convey/tell) + たい = 'I want to tell'. Note: あなた in Japanese is more intimate than casual use of 'you' — it often implies deep feeling, or is used between partners.",
+        "literal": "To-you, want-to-convey",
+        "example": {
+          "jp": "あなたに伝えたいことがある。",
+          "romaji": "Anata ni tsutaetai koto ga aru.",
+          "en": "There's something I want to tell you."
+        }
+      }
+    },
+    {
+      "time": 41,
+      "jp": "このぬくもりを",
+      "romaji": "Kono nukumori wo",
+      "en": "This warmth",
+      "learn": {
+        "breakdown": [
+          { "word": "この", "romaji": "kono", "meaning": "this (close to speaker, emotionally near)" },
+          { "word": "ぬくもり", "romaji": "nukumori", "meaning": "warmth, gentle heat — especially emotional warmth from another person" },
+          { "word": "を", "romaji": "wo", "meaning": "object particle (marks what is being conveyed)" }
+        ],
+        "grammar": "This line is the direct object of 伝えたい from the previous line: 'I want to tell you [about] this warmth'. ぬくもり is a beautiful, soft word — warmer and more tender than 温かさ (atatakasa). It implies physical warmth tinged with emotional closeness.",
+        "literal": "This warmth [object]",
+        "example": {
+          "jp": "この手のぬくもりを忘れない。",
+          "romaji": "Kono te no nukumori wo wasurenai.",
+          "en": "I won't forget the warmth of these hands."
+        }
+      }
+    },
+    {
+      "time": 48,
+      "jp": "あなたに出逢えた",
+      "romaji": "Anata ni deaeta",
+      "en": "That I was able to meet you",
+      "learn": {
+        "breakdown": [
+          { "word": "あなた", "romaji": "anata", "meaning": "you (intimate)" },
+          { "word": "に", "romaji": "ni", "meaning": "particle — indirect object / direction ('with you')" },
+          { "word": "出逢えた", "reading": "であえた", "romaji": "deaeta", "meaning": "was able to meet, managed to encounter (potential past of 出逢う)" }
+        ],
+        "grammar": "出逢う (to encounter, to meet — with a sense of fate or significance) → 出逢える (can meet, potential form) → 出逢えた (was able to meet, potential past). The kanji 出逢 is more poetic than 出会 — it implies a meaningful, fated encounter.",
+        "literal": "To-you, was-able-to-encounter",
+        "example": {
+          "jp": "あなたに出逢えて、本当に良かった。",
+          "romaji": "Anata ni deaete, hontou ni yokatta.",
+          "en": "I'm truly glad I was able to meet you."
+        }
+      }
+    },
+    {
+      "time": 53,
+      "jp": "このよろこびを",
+      "romaji": "Kono yorokobi wo",
+      "en": "This joy",
+      "learn": {
+        "breakdown": [
+          { "word": "この", "romaji": "kono", "meaning": "this (emotionally near)" },
+          { "word": "よろこび", "reading": "喜び", "romaji": "yorokobi", "meaning": "joy, happiness, delight [noun]" },
+          { "word": "を", "romaji": "wo", "meaning": "object particle" }
+        ],
+        "grammar": "Parallel structure with the previous line あなたに伝えたい / このぬくもりを. Now the second thing the speaker wants to convey is this joy. よろこび (喜び) is a deep, heartfelt joy — more significant than 楽しさ (fun).",
+        "literal": "This joy [object]",
+        "example": {
+          "jp": "このよろこびを誰かに伝えたい。",
+          "romaji": "Kono yorokobi wo dareka ni tsutaetai.",
+          "en": "I want to share this joy with someone."
+        }
+      }
+    },
+    {
+      "time": 58,
+      "jp": "いつまでもいつまでも",
+      "romaji": "Itsumade mo itsumade mo",
+      "en": "Forever and ever, always",
+      "learn": {
+        "breakdown": [
+          { "word": "いつまでも", "romaji": "itsumade mo", "meaning": "forever, always, for as long as time goes on" }
+        ],
+        "grammar": "いつまでも = いつ (when) + まで (until) + も (even) = 'even until whenever = forever'. Repetition (いつまでもいつまでも) is a classic Japanese lyrical technique that intensifies the feeling — it's not just forever, it's forever and then some.",
+        "literal": "Forever, forever",
+        "example": {
+          "jp": "いつまでも元気でいてください。",
+          "romaji": "Itsumade mo genki de ite kudasai.",
+          "en": "Please stay well forever."
+        }
+      }
+    },
+    {
+      "time": 63,
+      "jp": "忘れない",
+      "romaji": "Wasurenai",
+      "en": "I won't forget",
+      "learn": {
+        "breakdown": [
+          { "word": "忘れない", "reading": "わすれない", "romaji": "wasurenai", "meaning": "won't forget, will not forget (negative of 忘れる)" }
+        ],
+        "grammar": "忘れる (to forget) → 忘れない (won't forget). The plain negative form here is very direct and personal — a quiet, firm vow. Combined with いつまでもいつまでも: 'Forever and ever, I won't forget'. Simple words carrying enormous emotional weight.",
+        "literal": "Won't forget",
+        "example": {
+          "jp": "あの日のことは、いつまでも忘れない。",
+          "romaji": "Ano hi no koto wa, itsumade mo wasurenai.",
+          "en": "I will never forget that day."
+        }
+      }
+    },
+    {
+      "time": 67,
+      "jp": "あなたを愛してる",
+      "romaji": "Anata wo aishiteru",
+      "en": "I love you",
+      "learn": {
+        "breakdown": [
+          { "word": "あなた", "romaji": "anata", "meaning": "you (intimate)" },
+          { "word": "を", "romaji": "wo", "meaning": "object particle" },
+          { "word": "愛してる", "reading": "あいしてる", "romaji": "aishiteru", "meaning": "I love you (contracted from 愛している — deep, serious love)" }
+        ],
+        "grammar": "愛する (to love — deep, serious) → 愛している (loving, present continuous) → 愛してる (casual contracted form). In Japanese, 愛してる is weightier and less casually used than 好き. It implies profound, committed love. Saying it directly is a significant statement.",
+        "literal": "You [object], love [am loving]",
+        "example": {
+          "jp": "どんなときも、あなたを愛してる。",
+          "romaji": "Donna toki mo, anata wo aishiteru.",
+          "en": "No matter what, I love you."
+        }
+      }
+    },
+    {
+      "time": 75,
+      "jp": "覚えていますか",
+      "romaji": "Oboete imasu ka",
+      "en": "Do you remember?",
+      "learn": {
+        "breakdown": [
+          { "word": "覚えて", "reading": "おぼえて", "romaji": "oboete", "meaning": "remembering (て-form of 覚える)" },
+          { "word": "います", "romaji": "imasu", "meaning": "to be [doing] (polite continuous)" },
+          { "word": "か", "romaji": "ka", "meaning": "question particle" }
+        ],
+        "grammar": "覚えている = 'to be in a state of remembering = to remember'. The て-form + いる expresses an ongoing state. Polite form います + か makes it a tender, sincere question. The song ends with a question — an open ending, never fully resolved.",
+        "literal": "Remembering are-[you], question?",
+        "example": {
+          "jp": "あの日のこと、覚えていますか？",
+          "romaji": "Ano hi no koto, oboete imasu ka?",
+          "en": "Do you remember that day?"
+        }
+      }
+    },
+    {
+      "time": 80,
+      "jp": "いまでもあの歌を",
+      "romaji": "Ima demo ano uta wo",
+      "en": "Even now, that song",
+      "learn": {
+        "breakdown": [
+          { "word": "いまでも", "reading": "今でも", "romaji": "ima demo", "meaning": "even now, still even at this moment" },
+          { "word": "あの", "romaji": "ano", "meaning": "that [shared nostalgic memory]" },
+          { "word": "歌", "reading": "うた", "romaji": "uta", "meaning": "song" },
+          { "word": "を", "romaji": "wo", "meaning": "object particle (song is object of 覚えていますか)" }
+        ],
+        "grammar": "This line completes the question from 覚えていますか: 'Do you remember, even now, that song?' The sentence ends on を (object particle) with no verb — the verb 覚えていますか hovers from the line before. This trailing, unresolved ending is deeply poetic and intentional.",
+        "literal": "Even-now, that song [object]",
+        "example": {
+          "jp": "いまでもあの歌を口ずさんでいる。",
+          "romaji": "Ima demo ano uta wo kuchizusande iru.",
+          "en": "Even now, I find myself humming that song."
+        }
+      }
+    }
+  ],
+  "vocab": [
+    { "word": "連絡", "reading": "れんらく", "romaji": "renraku", "meaning": "contact, message, getting in touch" },
+    { "word": "元気", "reading": "げんき", "romaji": "genki", "meaning": "healthy, well, energetic" },
+    { "word": "声", "reading": "こえ", "romaji": "koe", "meaning": "voice" },
+    { "word": "耳", "reading": "みみ", "romaji": "mimi", "meaning": "ear" },
+    { "word": "残る", "reading": "のこる", "romaji": "nokoru", "meaning": "to remain, to linger, to be left behind" },
+    { "word": "そば", "romaji": "soba", "meaning": "side, close by, nearby" },
+    { "word": "抱きしめる", "reading": "だきしめる", "romaji": "dakishimeru", "meaning": "to embrace, to hold tightly" },
+    { "word": "伝える", "reading": "つたえる", "romaji": "tsutaeru", "meaning": "to convey, to tell, to communicate" },
+    { "word": "ぬくもり", "romaji": "nukumori", "meaning": "warmth, gentle warmth — especially emotional warmth" },
+    { "word": "出逢う", "reading": "であう", "romaji": "deau", "meaning": "to meet, to encounter (with a sense of fate or significance)" },
+    { "word": "よろこび", "reading": "喜び", "romaji": "yorokobi", "meaning": "joy, happiness, delight" },
+    { "word": "いつまでも", "romaji": "itsumade mo", "meaning": "forever, always, for as long as time goes on" },
+    { "word": "忘れる", "reading": "わすれる", "romaji": "wasureru", "meaning": "to forget" },
+    { "word": "愛する", "reading": "あいする", "romaji": "aisuru", "meaning": "to love (deep, serious love)" },
+    { "word": "覚える", "reading": "おぼえる", "romaji": "oboeru", "meaning": "to remember, to memorize" }
+  ]
+}
