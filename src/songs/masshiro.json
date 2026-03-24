@@ -1,35 +1,564 @@
 {
-  "title": "masshiro (真っ白)",
-  "artist": "Fujii Kaze",
+  "id": "masshiro",
+  "title": "真っ白 (Masshiro)",
+  "artist": "藤井風 (Fujii Kaze)",
   "youtubeId": "XwgL4C2WaU8",
   "level": "N3",
   "lyrics": [
-    { "time": 15.0,  "jp": "真っ白な心に惹かれ",               "romaji": "Masshiro na kokoro ni hikare",                    "en": "Drawn to a pure white heart" },
-    { "time": 22.7,  "jp": "真実をさまよえば",                  "romaji": "Shinjitsu wo samayoeba",                         "en": "If I wander through the truth" },
-    { "time": 30.5,  "jp": "真っ黒なところはぶち抜かれ",         "romaji": "Makkuro na tokoro wa buchinukare",               "en": "The pitch-black places are broken through" },
-    { "time": 38.1,  "jp": "真新しい風にまた抱かれた",           "romaji": "Maatarashii kaze ni mata dakareta",              "en": "Embraced again by a brand new wind" },
-    { "time": 47.6,  "jp": "好きだよ 好きだけど",               "romaji": "Suki da yo, suki da kedo",                      "en": "I love you, I really do, but..." },
-    { "time": 53.4,  "jp": "離れなくちゃ 置いてかなきゃ",       "romaji": "Hanarenakucha, oitekanakya",                    "en": "I have to leave, I have to go without you" },
-    { "time": 63.0,  "jp": "好きだよ 知らんけど",               "romaji": "Suki da yo, shiran kedo",                       "en": "I love you, though I don't know why" },
-    { "time": 68.8,  "jp": "私たちもう そんな頃よ",             "romaji": "Watashitachi mou sonna koro yo",                "en": "We've already reached that time" },
-    { "time": 78.4,  "jp": "先にさよならするわ",                "romaji": "Saki ni sayonara suru wa",                      "en": "I'll say goodbye first" },
-    { "time": 84.5,  "jp": "悪いのはそうよいつも私でいいの",     "romaji": "Warui no wa sou yo itsumo watashi de ii no",    "en": "It's fine if the bad one is always me" },
-    { "time": 93.8,  "jp": "先に進まなければゴールできぬゲームなのよ", "romaji": "Saki ni susumanakere ba gooru dekinu geemu na no yo", "en": "It's a game where you can't reach the goal without moving forward first" },
-    { "time": 107.3, "jp": "真っ白な心に惹かれ",               "romaji": "Masshiro na kokoro ni hikare",                  "en": "Drawn to a pure white heart" },
-    { "time": 114.8, "jp": "真実をさまよえば",                  "romaji": "Shinjitsu wo samayoeba",                       "en": "If I wander through the truth" },
-    { "time": 122.7, "jp": "真っ黒なところはぶち抜かれ",         "romaji": "Makkuro na tokoro wa buchinukare",             "en": "The pitch-black places are broken through" },
-    { "time": 130.3, "jp": "真新しい風にまた抱かれた",           "romaji": "Maatarashii kaze ni mata dakareta",            "en": "Embraced again by a brand new wind" },
-    { "time": 170.6, "jp": "先にさよならするわ",                "romaji": "Saki ni sayonara suru wa",                    "en": "I'll say goodbye first" },
-    { "time": 176.6, "jp": "悪いのはそうよいつも私でいいの",     "romaji": "Warui no wa sou yo itsumo watashi de ii no",  "en": "It's fine if the bad one is always me" },
-    { "time": 185.8, "jp": "先に進まなければゴールできぬゲームなのよ", "romaji": "Saki ni susumanakere ba gooru dekinu geemu na no yo", "en": "It's a game where you can't reach the goal without moving forward first" },
-    { "time": 199.4, "jp": "真っ白な心に惹かれ",               "romaji": "Masshiro na kokoro ni hikare",                 "en": "Drawn to a pure white heart" },
-    { "time": 207.0, "jp": "真実をさまよえば",                  "romaji": "Shinjitsu wo samayoeba",                      "en": "If I wander through the truth" },
-    { "time": 214.8, "jp": "真っ黒なところはぶち抜かれ",         "romaji": "Makkuro na tokoro wa buchinukare",            "en": "The pitch-black places are broken through" },
-    { "time": 222.6, "jp": "真新しい風にまた抱かれた",           "romaji": "Maatarashii kaze ni mata dakareta",           "en": "Embraced again by a brand new wind" },
-    { "time": 232.0, "jp": "好きだよ 好きだけど",               "romaji": "Suki da yo, suki da kedo",                    "en": "I love you, I really do, but..." },
-    { "time": 237.7, "jp": "離れなくちゃ 置いてかなきゃ",       "romaji": "Hanarenakucha, oitekanakya",                  "en": "I have to leave, I have to go without you" },
-    { "time": 247.5, "jp": "好きだよ 知らんけど",               "romaji": "Suki da yo, shiran kedo",                     "en": "I love you, though I don't know why" },
-    { "time": 253.1, "jp": "私たちもう そんな頃よ",             "romaji": "Watashitachi mou sonna koro yo",              "en": "We've already reached that time" }
+    {
+      "time": 15.0,
+      "jp": "真っ白な心に惹かれ",
+      "romaji": "Masshiro na kokoro ni hikare",
+      "en": "Drawn to a pure white heart",
+      "learn": {
+        "breakdown": [
+          { "word": "真っ白", "reading": "まっしろ", "romaji": "masshiro", "meaning": "pure white, spotless" },
+          { "word": "な", "romaji": "na", "meaning": "na-adjective connector (links 真っ白 to 心)" },
+          { "word": "心", "reading": "こころ", "romaji": "kokoro", "meaning": "heart, mind, soul" },
+          { "word": "に", "romaji": "ni", "meaning": "particle — target/direction (drawn toward)" },
+          { "word": "惹かれ", "reading": "ひかれ", "romaji": "hikare", "meaning": "drawn to, attracted (passive stem of 惹く, trails off)" }
+        ],
+        "grammar": "に惹かれる = 'to be drawn to (something)' — に marks what you're attracted by. The passive form 惹かれ trails off at the end, giving the line an unfinished, longing feeling.",
+        "literal": "Pure-white heart toward drawn",
+        "example": {
+          "jp": "彼女の笑顔に惹かれた。",
+          "romaji": "Kanojo no egao ni hikareta.",
+          "en": "I was drawn to her smile."
+        }
+      }
+    },
+    {
+      "time": 22.7,
+      "jp": "真実をさまよえば",
+      "romaji": "Shinjitsu wo samayoeba",
+      "en": "If I wander through the truth",
+      "learn": {
+        "breakdown": [
+          { "word": "真実", "reading": "しんじつ", "romaji": "shinjitsu", "meaning": "truth, reality" },
+          { "word": "を", "romaji": "wo", "meaning": "object particle — marks 真実 as what is wandered through" },
+          { "word": "さまよえば", "romaji": "samayoeba", "meaning": "if (one) wanders (ば conditional of さまよう)" }
+        ],
+        "grammar": "The ～ば conditional — さまよう → さまよえば = 'if one wanders'. The sentence trails off completely, leaving what would happen unspoken. This open ending is intentional — the wandering itself is the point.",
+        "literal": "Truth (object) if-I-wander",
+        "example": {
+          "jp": "迷宮をさまよえば、出口が見つかるかもしれない。",
+          "romaji": "Meikyuu wo samayoeba, deguchi ga mitsukaru kamoshirenai.",
+          "en": "If I wander the labyrinth, I might find the exit."
+        }
+      }
+    },
+    {
+      "time": 30.5,
+      "jp": "真っ黒なところはぶち抜かれ",
+      "romaji": "Makkuro na tokoro wa buchinukare",
+      "en": "The pitch-black places are broken through",
+      "learn": {
+        "breakdown": [
+          { "word": "真っ黒", "reading": "まっくろ", "romaji": "makkuro", "meaning": "pitch black, completely dark" },
+          { "word": "な", "romaji": "na", "meaning": "na-adjective connector" },
+          { "word": "ところ", "romaji": "tokoro", "meaning": "place, part, aspect" },
+          { "word": "は", "romaji": "wa", "meaning": "topic particle" },
+          { "word": "ぶち抜かれ", "reading": "ぶちぬかれ", "romaji": "buchinukare", "meaning": "are broken through, punched through (passive of ぶち抜く, trails off)" }
+        ],
+        "grammar": "ぶち is an intensifying prefix meaning to slam or smash. ぶち抜く = 'to break clean through'. The passive ぶち抜かれ means the darkness is broken through by some unstoppable force — implying spiritual or emotional breakthrough.",
+        "literal": "Pitch-black places (topic) are-broken-through",
+        "example": {
+          "jp": "壁をぶち抜いて、新しい部屋を作った。",
+          "romaji": "Kabe wo buchinuite, atarashii heya wo tsukutta.",
+          "en": "They broke through the wall and made a new room."
+        }
+      }
+    },
+    {
+      "time": 38.1,
+      "jp": "真新しい風にまた抱かれた",
+      "romaji": "Maatarashii kaze ni mata dakareta",
+      "en": "Embraced again by a brand new wind",
+      "learn": {
+        "breakdown": [
+          { "word": "真新しい", "reading": "まあたらしい", "romaji": "maatarashii", "meaning": "brand new, completely fresh" },
+          { "word": "風", "reading": "かぜ", "romaji": "kaze", "meaning": "wind" },
+          { "word": "に", "romaji": "ni", "meaning": "particle — marks the agent in a passive sentence (by the wind)" },
+          { "word": "また", "romaji": "mata", "meaning": "again, once more" },
+          { "word": "抱かれた", "reading": "だかれた", "romaji": "dakareta", "meaning": "was embraced, was held (past passive of 抱く)" }
+        ],
+        "grammar": "Passive construction: 風に抱かれた = 'was embraced by the wind'. In passives, に marks who or what performs the action. また adds poignancy — being held by something new, again.",
+        "literal": "Brand-new wind by again was-embraced",
+        "example": {
+          "jp": "春の風に抱かれるような気持ちだった。",
+          "romaji": "Haru no kaze ni dakareru you na kimochi datta.",
+          "en": "It felt like being embraced by a spring breeze."
+        }
+      }
+    },
+    {
+      "time": 47.6,
+      "jp": "好きだよ 好きだけど",
+      "romaji": "Suki da yo, suki da kedo",
+      "en": "I love you, I really do, but...",
+      "learn": {
+        "breakdown": [
+          { "word": "好き", "reading": "すき", "romaji": "suki", "meaning": "like, love" },
+          { "word": "だよ", "romaji": "da yo", "meaning": "assertive + よ for warm emphasis ('I really do')" },
+          { "word": "好きだけど", "romaji": "suki da kedo", "meaning": "I love you, but... (けど softens and trails off)" }
+        ],
+        "grammar": "Repeating 好きだ twice creates emotional weight — 'I love you, I genuinely do'. けど at the end leaves the contradiction unspoken. The listener fills in what comes after 'but'. More gentle and resigned than でも (but).",
+        "literal": "Love-you (I do), love-you but...",
+        "example": {
+          "jp": "行きたいよ、行きたいけど、無理なんだ。",
+          "romaji": "Ikitai yo, ikitai kedo, muri nanda.",
+          "en": "I want to go, I really do, but it's impossible."
+        }
+      }
+    },
+    {
+      "time": 53.4,
+      "jp": "離れなくちゃ 置いてかなきゃ",
+      "romaji": "Hanarenakucha, oitekanakya",
+      "en": "I have to leave, I have to go without you",
+      "learn": {
+        "breakdown": [
+          { "word": "離れなくちゃ", "reading": "はなれなくちゃ", "romaji": "hanarenakucha", "meaning": "have to leave, must part (colloquial contraction of 離れなくてはいけない)" },
+          { "word": "置いてかなきゃ", "reading": "おいてかなきゃ", "romaji": "oitekanakya", "meaning": "have to leave (you) behind (contraction of 置いていかなければいけない)" }
+        ],
+        "grammar": "～なくちゃ and ～なきゃ are casual contractions of ～なくてはいけない / ～なければいけない — both mean 'have to / must'. The shortened forms feel more breathless and reluctant, as if the speaker is steeling herself.",
+        "literal": "Must-part, must-leave-behind",
+        "example": {
+          "jp": "もう帰らなくちゃ。",
+          "romaji": "Mou kaeranakucha.",
+          "en": "I have to go home now."
+        }
+      }
+    },
+    {
+      "time": 63.0,
+      "jp": "好きだよ 知らんけど",
+      "romaji": "Suki da yo, shiran kedo",
+      "en": "I love you, though I don't know why",
+      "learn": {
+        "breakdown": [
+          { "word": "好きだよ", "romaji": "suki da yo", "meaning": "I love you (warm assertion)" },
+          { "word": "知らん", "reading": "しらん", "romaji": "shiran", "meaning": "I don't know (Kansai dialect / casual form of 知らない)" },
+          { "word": "けど", "romaji": "kedo", "meaning": "but, though (softening hedge)" }
+        ],
+        "grammar": "知らんけど is a signature Kansai expression Fujii Kaze uses throughout his music. It acts as a self-deprecating hedge — 'don't ask me why, but...' or 'I'm not sure, but...'. It makes the love feel honest and unguarded rather than performative.",
+        "literal": "Love-you, (I) don't-know though",
+        "example": {
+          "jp": "なんか好きやねん、知らんけど。",
+          "romaji": "Nanka suki yanen, shiran kedo.",
+          "en": "I just kind of like it, though I don't know why."
+        }
+      }
+    },
+    {
+      "time": 68.8,
+      "jp": "私たちもう そんな頃よ",
+      "romaji": "Watashitachi mou sonna koro yo",
+      "en": "We've already reached that time",
+      "learn": {
+        "breakdown": [
+          { "word": "私たち", "reading": "わたしたち", "romaji": "watashitachi", "meaning": "we, us" },
+          { "word": "もう", "romaji": "mou", "meaning": "already, by now" },
+          { "word": "そんな", "romaji": "sonna", "meaning": "that kind of, such (refers to something understood in context)" },
+          { "word": "頃", "reading": "ころ", "romaji": "koro", "meaning": "time, period, season (of life)" },
+          { "word": "よ", "romaji": "yo", "meaning": "sentence-final particle — feminine assertion" }
+        ],
+        "grammar": "そんな頃 refers to 'that time' — the inevitable moment when things end. The speaker doesn't name it; both she and the listener understand. もう (already) makes it feel accepted rather than sudden. よ adds a soft, feminine finality.",
+        "literal": "We already that-kind-of time (it is)",
+        "example": {
+          "jp": "そんな頃が来るとは思わなかった。",
+          "romaji": "Sonna koro ga kuru to wa omowanakatta.",
+          "en": "I didn't think that time would come."
+        }
+      }
+    },
+    {
+      "time": 78.4,
+      "jp": "先にさよならするわ",
+      "romaji": "Saki ni sayonara suru wa",
+      "en": "I'll say goodbye first",
+      "learn": {
+        "breakdown": [
+          { "word": "先に", "reading": "さきに", "romaji": "saki ni", "meaning": "first, ahead, before the other person" },
+          { "word": "さよなら", "romaji": "sayonara", "meaning": "goodbye (final farewell)" },
+          { "word": "する", "romaji": "suru", "meaning": "to do" },
+          { "word": "わ", "romaji": "wa", "meaning": "feminine sentence-final particle — soft assertion" }
+        ],
+        "grammar": "さよならする = 'to say goodbye'. 先に frames this as a preemptive act — she leaves before she can be left. わ is typically feminine speech, adding softness to what is actually a decisive statement.",
+        "literal": "First goodbye (I'll) do",
+        "example": {
+          "jp": "先に帰るわ。",
+          "romaji": "Saki ni kaeru wa.",
+          "en": "I'll head home first."
+        }
+      }
+    },
+    {
+      "time": 84.5,
+      "jp": "悪いのはそうよいつも私でいいの",
+      "romaji": "Warui no wa sou yo itsumo watashi de ii no",
+      "en": "It's fine if the bad one is always me",
+      "learn": {
+        "breakdown": [
+          { "word": "悪い", "reading": "わるい", "romaji": "warui", "meaning": "bad, at fault, to blame" },
+          { "word": "のは", "romaji": "no wa", "meaning": "nominalizer + topic particle (turns 悪い into a noun phrase: 'the bad one')" },
+          { "word": "そうよ", "romaji": "sou yo", "meaning": "that's right, yes (feminine affirmation)" },
+          { "word": "いつも", "romaji": "itsumo", "meaning": "always" },
+          { "word": "私", "reading": "わたし", "romaji": "watashi", "meaning": "I, me" },
+          { "word": "でいいの", "romaji": "de ii no", "meaning": "it's fine if it's (me) — resigned acceptance" }
+        ],
+        "grammar": "でいいの = 'it's okay if it's ~'. This is quiet self-sacrifice rather than self-pity. のは nominalizes 悪い into 'the one at fault'. The line says: yes, blame me, always — I accept it.",
+        "literal": "The-bad-one (topic) that's-right always me it-is-fine",
+        "example": {
+          "jp": "私でいいなら、手伝うよ。",
+          "romaji": "Watashi de ii nara, tetsudau yo.",
+          "en": "If I'm okay, I'll help."
+        }
+      }
+    },
+    {
+      "time": 93.8,
+      "jp": "先に進まなければゴールできぬゲームなのよ",
+      "romaji": "Saki ni susumanakere ba gooru dekinu geemu na no yo",
+      "en": "It's a game where you can't reach the goal without moving forward first",
+      "learn": {
+        "breakdown": [
+          { "word": "先に", "reading": "さきに", "romaji": "saki ni", "meaning": "first, forward, ahead" },
+          { "word": "進まなければ", "reading": "すすまなければ", "romaji": "susumanakere ba", "meaning": "if (one) doesn't advance (negative conditional of 進む)" },
+          { "word": "ゴール", "romaji": "gooru", "meaning": "goal (loanword from English)" },
+          { "word": "できぬ", "romaji": "dekinu", "meaning": "cannot do (archaic/literary negative of できる)" },
+          { "word": "ゲーム", "romaji": "geemu", "meaning": "game (loanword from English)" },
+          { "word": "なのよ", "romaji": "na no yo", "meaning": "it is (emphatic feminine assertion)" }
+        ],
+        "grammar": "できぬ is an archaic negative (できない in modern speech) — its formality gives the metaphor weight. ～なければ is the conditional negative 'if not'. The whole line is a philosophical metaphor: you must move forward (say goodbye first) to reach any goal.",
+        "literal": "Forward if-don't-advance goal cannot-reach game it-is",
+        "example": {
+          "jp": "挑戦しなければ、成功できぬ。",
+          "romaji": "Chousen shinakereba, seikou dekinu.",
+          "en": "If you don't try, you cannot succeed."
+        }
+      }
+    },
+    {
+      "time": 107.3,
+      "jp": "真っ白な心に惹かれ",
+      "romaji": "Masshiro na kokoro ni hikare",
+      "en": "Drawn to a pure white heart",
+      "learn": {
+        "breakdown": [
+          { "word": "真っ白", "reading": "まっしろ", "romaji": "masshiro", "meaning": "pure white, spotless" },
+          { "word": "な", "romaji": "na", "meaning": "na-adjective connector" },
+          { "word": "心", "reading": "こころ", "romaji": "kokoro", "meaning": "heart, mind, soul" },
+          { "word": "に", "romaji": "ni", "meaning": "particle — target/direction" },
+          { "word": "惹かれ", "reading": "ひかれ", "romaji": "hikare", "meaning": "drawn to (passive stem of 惹く, trails off)" }
+        ],
+        "grammar": "に惹かれる = 'to be drawn to'. The passive trailing form 惹かれ gives a sense of being pulled without resistance — an irresistible attraction.",
+        "literal": "Pure-white heart toward drawn",
+        "example": {
+          "jp": "彼女の笑顔に惹かれた。",
+          "romaji": "Kanojo no egao ni hikareta.",
+          "en": "I was drawn to her smile."
+        }
+      }
+    },
+    {
+      "time": 114.8,
+      "jp": "真実をさまよえば",
+      "romaji": "Shinjitsu wo samayoeba",
+      "en": "If I wander through the truth",
+      "learn": {
+        "breakdown": [
+          { "word": "真実", "reading": "しんじつ", "romaji": "shinjitsu", "meaning": "truth, reality" },
+          { "word": "を", "romaji": "wo", "meaning": "object particle" },
+          { "word": "さまよえば", "romaji": "samayoeba", "meaning": "if (one) wanders (ば conditional of さまよう)" }
+        ],
+        "grammar": "The ～ば conditional leaves the consequence unspoken. Wandering through truth suggests an inner journey — painful and unresolved.",
+        "literal": "Truth (object) if-I-wander",
+        "example": {
+          "jp": "迷宮をさまよえば、出口が見つかるかもしれない。",
+          "romaji": "Meikyuu wo samayoeba, deguchi ga mitsukaru kamoshirenai.",
+          "en": "If I wander the labyrinth, I might find the exit."
+        }
+      }
+    },
+    {
+      "time": 122.7,
+      "jp": "真っ黒なところはぶち抜かれ",
+      "romaji": "Makkuro na tokoro wa buchinukare",
+      "en": "The pitch-black places are broken through",
+      "learn": {
+        "breakdown": [
+          { "word": "真っ黒", "reading": "まっくろ", "romaji": "makkuro", "meaning": "pitch black" },
+          { "word": "な", "romaji": "na", "meaning": "na-adjective connector" },
+          { "word": "ところ", "romaji": "tokoro", "meaning": "place, part, aspect" },
+          { "word": "は", "romaji": "wa", "meaning": "topic particle" },
+          { "word": "ぶち抜かれ", "reading": "ぶちぬかれ", "romaji": "buchinukare", "meaning": "broken through (passive of ぶち抜く)" }
+        ],
+        "grammar": "ぶち is an intensifying prefix — ぶち抜く means to slam clean through something. The passive here implies an outside force breaks through the darkness. A metaphor for spiritual liberation.",
+        "literal": "Pitch-black places are-broken-through",
+        "example": {
+          "jp": "壁をぶち抜いて、新しい部屋を作った。",
+          "romaji": "Kabe wo buchinuite, atarashii heya wo tsukutta.",
+          "en": "They broke through the wall and made a new room."
+        }
+      }
+    },
+    {
+      "time": 130.3,
+      "jp": "真新しい風にまた抱かれた",
+      "romaji": "Maatarashii kaze ni mata dakareta",
+      "en": "Embraced again by a brand new wind",
+      "learn": {
+        "breakdown": [
+          { "word": "真新しい", "reading": "まあたらしい", "romaji": "maatarashii", "meaning": "brand new, completely fresh" },
+          { "word": "風", "reading": "かぜ", "romaji": "kaze", "meaning": "wind" },
+          { "word": "に", "romaji": "ni", "meaning": "by (passive agent marker)" },
+          { "word": "また", "romaji": "mata", "meaning": "again" },
+          { "word": "抱かれた", "reading": "だかれた", "romaji": "dakareta", "meaning": "was embraced (past passive of 抱く)" }
+        ],
+        "grammar": "に marks the agent in a passive sentence. 風に抱かれた = 'embraced by the wind'. また (again) suggests this renewal is cyclical — the same cleansing feeling returning.",
+        "literal": "Brand-new wind by again was-embraced",
+        "example": {
+          "jp": "春の風に抱かれるような気持ちだった。",
+          "romaji": "Haru no kaze ni dakareru you na kimochi datta.",
+          "en": "It felt like being embraced by a spring breeze."
+        }
+      }
+    },
+    {
+      "time": 170.6,
+      "jp": "先にさよならするわ",
+      "romaji": "Saki ni sayonara suru wa",
+      "en": "I'll say goodbye first",
+      "learn": {
+        "breakdown": [
+          { "word": "先に", "reading": "さきに", "romaji": "saki ni", "meaning": "first, before the other person" },
+          { "word": "さよなら", "romaji": "sayonara", "meaning": "goodbye" },
+          { "word": "する", "romaji": "suru", "meaning": "to do" },
+          { "word": "わ", "romaji": "wa", "meaning": "feminine sentence-final particle" }
+        ],
+        "grammar": "さよならする = 'to say goodbye'. 先に = she acts before being acted upon. This is the emotional core of the song — choosing to leave first as an act of love and self-protection.",
+        "literal": "First goodbye (I'll) do",
+        "example": {
+          "jp": "先に帰るわ。",
+          "romaji": "Saki ni kaeru wa.",
+          "en": "I'll head home first."
+        }
+      }
+    },
+    {
+      "time": 176.6,
+      "jp": "悪いのはそうよいつも私でいいの",
+      "romaji": "Warui no wa sou yo itsumo watashi de ii no",
+      "en": "It's fine if the bad one is always me",
+      "learn": {
+        "breakdown": [
+          { "word": "悪い", "reading": "わるい", "romaji": "warui", "meaning": "bad, at fault" },
+          { "word": "のは", "romaji": "no wa", "meaning": "nominalizer + topic" },
+          { "word": "そうよ", "romaji": "sou yo", "meaning": "that's right (feminine)" },
+          { "word": "いつも", "romaji": "itsumo", "meaning": "always" },
+          { "word": "私", "reading": "わたし", "romaji": "watashi", "meaning": "me, I" },
+          { "word": "でいいの", "romaji": "de ii no", "meaning": "it's fine if it's (me)" }
+        ],
+        "grammar": "でいいの is resigned acceptance — 'it's okay if the bad one is me'. のは nominalizes the adjective 悪い. The line is selfless resignation, not bitterness.",
+        "literal": "The-bad-one that's-right always me it-is-fine",
+        "example": {
+          "jp": "私でいいなら、手伝うよ。",
+          "romaji": "Watashi de ii nara, tetsudau yo.",
+          "en": "If I'm okay, I'll help."
+        }
+      }
+    },
+    {
+      "time": 185.8,
+      "jp": "先に進まなければゴールできぬゲームなのよ",
+      "romaji": "Saki ni susumanakere ba gooru dekinu geemu na no yo",
+      "en": "It's a game where you can't reach the goal without moving forward first",
+      "learn": {
+        "breakdown": [
+          { "word": "先に", "reading": "さきに", "romaji": "saki ni", "meaning": "first, forward" },
+          { "word": "進まなければ", "reading": "すすまなければ", "romaji": "susumanakere ba", "meaning": "if (one) doesn't advance (negative conditional)" },
+          { "word": "ゴール", "romaji": "gooru", "meaning": "goal (loanword)" },
+          { "word": "できぬ", "romaji": "dekinu", "meaning": "cannot (archaic negative of できる)" },
+          { "word": "ゲーム", "romaji": "geemu", "meaning": "game (loanword)" },
+          { "word": "なのよ", "romaji": "na no yo", "meaning": "it is (emphatic feminine)" }
+        ],
+        "grammar": "できぬ is archaic and poetic — its formality gives the metaphor gravitas. The line reframes saying goodbye as necessary progress: you must move forward to reach the goal. The farewell is not failure — it is the only way to win.",
+        "literal": "Forward if-don't-advance goal cannot-reach game it-is",
+        "example": {
+          "jp": "挑戦しなければ、成功できぬ。",
+          "romaji": "Chousen shinakereba, seikou dekinu.",
+          "en": "If you don't try, you cannot succeed."
+        }
+      }
+    },
+    {
+      "time": 199.4,
+      "jp": "真っ白な心に惹かれ",
+      "romaji": "Masshiro na kokoro ni hikare",
+      "en": "Drawn to a pure white heart",
+      "learn": {
+        "breakdown": [
+          { "word": "真っ白", "reading": "まっしろ", "romaji": "masshiro", "meaning": "pure white, spotless" },
+          { "word": "な", "romaji": "na", "meaning": "na-adjective connector" },
+          { "word": "心", "reading": "こころ", "romaji": "kokoro", "meaning": "heart, mind, soul" },
+          { "word": "に", "romaji": "ni", "meaning": "particle — toward, to" },
+          { "word": "惹かれ", "reading": "ひかれ", "romaji": "hikare", "meaning": "drawn to (passive trailing form)" }
+        ],
+        "grammar": "に惹かれ trails off without completing the thought. The repeated chorus now carries weight from everything that came before — the attraction to purity that drove all the difficult choices.",
+        "literal": "Pure-white heart toward drawn",
+        "example": {
+          "jp": "彼女の笑顔に惹かれた。",
+          "romaji": "Kanojo no egao ni hikareta.",
+          "en": "I was drawn to her smile."
+        }
+      }
+    },
+    {
+      "time": 207.0,
+      "jp": "真実をさまよえば",
+      "romaji": "Shinjitsu wo samayoeba",
+      "en": "If I wander through the truth",
+      "learn": {
+        "breakdown": [
+          { "word": "真実", "reading": "しんじつ", "romaji": "shinjitsu", "meaning": "truth, reality" },
+          { "word": "を", "romaji": "wo", "meaning": "object particle" },
+          { "word": "さまよえば", "romaji": "samayoeba", "meaning": "if (one) wanders (ば conditional)" }
+        ],
+        "grammar": "By the final chorus, this wandering feels resolved — the speaker has faced the truth and made her choice. The unfinished conditional now feels like an acceptance rather than a question.",
+        "literal": "Truth (object) if-I-wander",
+        "example": {
+          "jp": "迷宮をさまよえば、出口が見つかるかもしれない。",
+          "romaji": "Meikyuu wo samayoeba, deguchi ga mitsukaru kamoshirenai.",
+          "en": "If I wander the labyrinth, I might find the exit."
+        }
+      }
+    },
+    {
+      "time": 214.8,
+      "jp": "真っ黒なところはぶち抜かれ",
+      "romaji": "Makkuro na tokoro wa buchinukare",
+      "en": "The pitch-black places are broken through",
+      "learn": {
+        "breakdown": [
+          { "word": "真っ黒", "reading": "まっくろ", "romaji": "makkuro", "meaning": "pitch black" },
+          { "word": "な", "romaji": "na", "meaning": "na-adjective connector" },
+          { "word": "ところ", "romaji": "tokoro", "meaning": "place, aspect" },
+          { "word": "は", "romaji": "wa", "meaning": "topic particle" },
+          { "word": "ぶち抜かれ", "reading": "ぶちぬかれ", "romaji": "buchinukare", "meaning": "broken through (passive)" }
+        ],
+        "grammar": "In the final chorus, the darkness being broken through feels definitive — the act of saying goodbye first is itself the force that shatters the dark.",
+        "literal": "Pitch-black places are-broken-through",
+        "example": {
+          "jp": "壁をぶち抜いて、新しい部屋を作った。",
+          "romaji": "Kabe wo buchinuite, atarashii heya wo tsukutta.",
+          "en": "They broke through the wall and made a new room."
+        }
+      }
+    },
+    {
+      "time": 222.6,
+      "jp": "真新しい風にまた抱かれた",
+      "romaji": "Maatarashii kaze ni mata dakareta",
+      "en": "Embraced again by a brand new wind",
+      "learn": {
+        "breakdown": [
+          { "word": "真新しい", "reading": "まあたらしい", "romaji": "maatarashii", "meaning": "brand new" },
+          { "word": "風", "reading": "かぜ", "romaji": "kaze", "meaning": "wind" },
+          { "word": "に", "romaji": "ni", "meaning": "by (passive agent)" },
+          { "word": "また", "romaji": "mata", "meaning": "again" },
+          { "word": "抱かれた", "reading": "だかれた", "romaji": "dakareta", "meaning": "was embraced (past passive)" }
+        ],
+        "grammar": "The final arrival of this image — embraced by something entirely new. また (again) suggests the cycle continues: loss, wandering, breakthrough, renewal. The passive tense shows this as something received, not forced.",
+        "literal": "Brand-new wind by again was-embraced",
+        "example": {
+          "jp": "春の風に抱かれるような気持ちだった。",
+          "romaji": "Haru no kaze ni dakareru you na kimochi datta.",
+          "en": "It felt like being embraced by a spring breeze."
+        }
+      }
+    },
+    {
+      "time": 232.0,
+      "jp": "好きだよ 好きだけど",
+      "romaji": "Suki da yo, suki da kedo",
+      "en": "I love you, I really do, but...",
+      "learn": {
+        "breakdown": [
+          { "word": "好き", "reading": "すき", "romaji": "suki", "meaning": "like, love" },
+          { "word": "だよ", "romaji": "da yo", "meaning": "warm assertion ('I really do')" },
+          { "word": "好きだけど", "romaji": "suki da kedo", "meaning": "I love you, but... (けど trails off)" }
+        ],
+        "grammar": "The repetition underlines sincerity. The love is not in doubt — only its future. けど leaves the ending open: the listener must feel what comes after 'but'.",
+        "literal": "Love-you (I do), love-you but...",
+        "example": {
+          "jp": "行きたいよ、行きたいけど、無理なんだ。",
+          "romaji": "Ikitai yo, ikitai kedo, muri nanda.",
+          "en": "I want to go, I really do, but it's impossible."
+        }
+      }
+    },
+    {
+      "time": 237.7,
+      "jp": "離れなくちゃ 置いてかなきゃ",
+      "romaji": "Hanarenakucha, oitekanakya",
+      "en": "I have to leave, I have to go without you",
+      "learn": {
+        "breakdown": [
+          { "word": "離れなくちゃ", "reading": "はなれなくちゃ", "romaji": "hanarenakucha", "meaning": "have to separate (colloquial must-form)" },
+          { "word": "置いてかなきゃ", "reading": "おいてかなきゃ", "romaji": "oitekanakya", "meaning": "have to leave (you) behind (colloquial must-form)" }
+        ],
+        "grammar": "Both ～なくちゃ and ～なきゃ compress 'must do' into something breathless and urgent. Paired together, they hammer the point: this is necessary, even if painful.",
+        "literal": "Must-part, must-leave-behind",
+        "example": {
+          "jp": "もう帰らなくちゃ。",
+          "romaji": "Mou kaeranakucha.",
+          "en": "I have to go home now."
+        }
+      }
+    },
+    {
+      "time": 247.5,
+      "jp": "好きだよ 知らんけど",
+      "romaji": "Suki da yo, shiran kedo",
+      "en": "I love you, though I don't know why",
+      "learn": {
+        "breakdown": [
+          { "word": "好きだよ", "romaji": "suki da yo", "meaning": "I love you" },
+          { "word": "知らん", "reading": "しらん", "romaji": "shiran", "meaning": "I don't know (Kansai dialect)" },
+          { "word": "けど", "romaji": "kedo", "meaning": "but, though" }
+        ],
+        "grammar": "知らんけど is Fujii Kaze's Kansai signature — an honest shrug attached to an honest feeling. Love that doesn't need justification. The dialect makes it intimate and real.",
+        "literal": "Love-you, (I) don't-know though",
+        "example": {
+          "jp": "なんか好きやねん、知らんけど。",
+          "romaji": "Nanka suki yanen, shiran kedo.",
+          "en": "I just kind of like it, though I don't know why."
+        }
+      }
+    },
+    {
+      "time": 253.1,
+      "jp": "私たちもう そんな頃よ",
+      "romaji": "Watashitachi mou sonna koro yo",
+      "en": "We've already reached that time",
+      "learn": {
+        "breakdown": [
+          { "word": "私たち", "reading": "わたしたち", "romaji": "watashitachi", "meaning": "we, us" },
+          { "word": "もう", "romaji": "mou", "meaning": "already" },
+          { "word": "そんな", "romaji": "sonna", "meaning": "that kind of (referring to the time of parting)" },
+          { "word": "頃", "reading": "ころ", "romaji": "koro", "meaning": "time, season (of life)" },
+          { "word": "よ", "romaji": "yo", "meaning": "soft feminine assertion" }
+        ],
+        "grammar": "The final word. そんな頃 still doesn't name the ending directly — it stays unnamed, universal. By now the listener knows what 'that time' means. The song closes on this gentle, inevitable acknowledgement.",
+        "literal": "We already that-kind-of time (it is)",
+        "example": {
+          "jp": "そんな頃が来るとは思わなかった。",
+          "romaji": "Sonna koro ga kuru to wa omowanakatta.",
+          "en": "I didn't think that time would come."
+        }
+      }
+    }
   ],
   "vocab": [
     { "word": "真っ白",   "reading": "まっしろ",     "meaning": "pure white, spotless" },
