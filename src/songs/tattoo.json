@@ -1,68 +1,1048 @@
 {
+  "id": "tattoo",
   "title": "TATTOO",
-  "artist": "SixTONES",
+  "artist": "Official髭男dism",
   "youtubeId": "oLrp9uTa9gw",
-  "level": "N3",
+  "level": "N4",
   "lyrics": [
-    { "time": 21, "jp": "大丈夫、痛みにとっても弱いから", "romaji": "Daijoubu, itami ni tottemo yowai kara", "en": "It's okay, because I'm really bad with pain" },
-    { "time": 26, "jp": "大丈夫、憧れは時に憧れのまんま", "romaji": "Daijoubu, akogare wa toki ni akogare no manma", "en": "It's okay, sometimes longing just stays as longing" },
-    { "time": 31, "jp": "愛、ジョーク、それとたまにキツめのネガティブ", "romaji": "Ai, jooku, sore to tama ni kitsume no negatibu", "en": "Love, jokes, and sometimes rather harsh negativity" },
-    { "time": 35, "jp": "それでいつも元通りさ", "romaji": "Sore de itsumo motodoori sa", "en": "And yet we always go back to how we were" },
-    { "time": 41, "jp": "君と僕との間柄なら", "romaji": "Kimi to boku to no aidagara nara", "en": "Given the relationship between you and me" },
-    { "time": 45, "jp": "そりゃ出くわす問題も様々", "romaji": "Sorya dekuwasu mondai mo samazama", "en": "Of course we'll run into all kinds of problems" },
-    { "time": 50, "jp": "だから隣に居りゃ 旅の道すがら", "romaji": "Dakara tonari ni orya tabi no michisugara", "en": "So if you're by my side, along the road of our journey" },
-    { "time": 55, "jp": "どんなヤミからも命からがら", "romaji": "Donna yami kara mo inochi karakara", "en": "From any kind of darkness, barely escaping with our lives" },
-    { "time": 62, "jp": "助けるよ 助けてよ My Buddy, Darling", "romaji": "Tasukeru yo tasukete yo My Buddy, Darling", "en": "I'll save you, save me, My Buddy, Darling" },
-    { "time": 65, "jp": "SOSが不器用でも 気にしないからもう", "romaji": "SOS ga bukiyou demo ki ni shinai kara mou", "en": "Even if your SOS is clumsy, I don't mind at all" },
-    { "time": 73, "jp": "そっけないくらいで僕らは丁度良いんじゃない？", "romaji": "Sokkenai kurai de bokura wa choudo yoi n janai?", "en": "Aren't we just right being a little distant with each other?" },
-    { "time": 77, "jp": "きっと涙も言葉もおまけでも良いんじゃない？", "romaji": "Kitto namida mo kotoba mo omake demo yoi n janai?", "en": "Surely tears and words can just be extras, right?" },
-    { "time": 82, "jp": "多分世界が次のフェーズへ行こうと見つけてみせるよ", "romaji": "Tabun sekai ga tsugi no feezu e ikou to mitsukete miseru yo", "en": "Probably, no matter where the world heads next, I'll find you" },
-    { "time": 89, "jp": "いや嫌でも見つかるんだろうよ", "romaji": "Iya iya demo mitsukaru n darou yo", "en": "Well, we'd find each other even if we tried not to" },
-    { "time": 93, "jp": "あっけないくらい早い時間も良いんじゃない？", "romaji": "Akkenai kurai hayai jikan mo yoi n janai?", "en": "Isn't it fine that time passes so fast it feels fleeting?" },
-    { "time": 97, "jp": "きっとありふれてないくらいが大切なんじゃない？", "romaji": "Kitto arifurete nai kurai ga taisetsu na n janai?", "en": "Surely the fact that it's not ordinary is what makes it precious, right?" },
-    { "time": 102, "jp": "なんてさ 本気で思っちゃう心の恥ずかしさが僕らだけにあるTATTOO", "romaji": "Nante sa honki de omocchau kokoro no hazukashisa ga bokura dake ni aru TATTOO", "en": "The embarrassment of genuinely feeling this — a TATTOO that belongs only to us" },
-    { "time": 117, "jp": "消えない 消さない 消させやしない", "romaji": "Kienai kesanai kesase ya shinai", "en": "It won't disappear, we won't erase it, we won't let it be erased" },
-    { "time": 122, "jp": "大丈夫、見せびらかす必要はないから", "romaji": "Daijoubu, misebira kasu hitsuyou wa nai kara", "en": "It's okay, because there's no need to show it off" },
-    { "time": 127, "jp": "大丈夫、自分たちだけ分かっていりゃいいから", "romaji": "Daijoubu, jibuntachi dake wakatte irya ii kara", "en": "It's okay, because it's enough that only we understand" },
-    { "time": 132, "jp": "ハイボール、爆笑の渦に呑まれるネガティブ", "romaji": "Haibooru, bakushou no uzu ni nomareru negatibu", "en": "Highball in hand, negativity swallowed up in a storm of laughter" },
-    { "time": 136, "jp": "まるで まるで別次元さ", "romaji": "Marude marude betsu jigen sa", "en": "It's like, it's like a completely different dimension" },
-    { "time": 141, "jp": "そしてそんな君と僕との間柄なら", "romaji": "Soshite sonna kimi to boku to no aidagara nara", "en": "And given the kind of relationship we have" },
-    { "time": 147, "jp": "そりゃ赤らんだ顔だって晒すわな", "romaji": "Sorya akaranda kao datte sarasu wa na", "en": "Of course we'd show our flushed faces too" },
-    { "time": 152, "jp": "今は例えるとか うまく出来ないけどさ", "romaji": "Ima wa tatoeru to ka umaku dekinai kedo sa", "en": "Right now I can't quite put it into words, but" },
-    { "time": 157, "jp": "かけがえない類いの何かさながら", "romaji": "Kakegae nai tagui no nanika sanagara", "en": "It's like something truly irreplaceable" },
-    { "time": 163, "jp": "リスペクト 増してくようなDaily Feeling", "romaji": "Risupekuto mashite ku you na Daily Feeling", "en": "A daily feeling where my respect keeps on growing" },
-    { "time": 167, "jp": "言い合ったりするのにも もう慣れっこだろう", "romaji": "Iitattari suru no ni mo mou narekko darou", "en": "We're already used to arguing with each other, aren't we" },
-    { "time": 174, "jp": "情け容赦無い時代のバッドワードが", "romaji": "Nasake yousha nai jidai no baddo waado ga", "en": "When the harsh words of this merciless era" },
-    { "time": 178, "jp": "ひょんな時に僕らの事を脅かす時には", "romaji": "Hyon na toki ni bokura no koto o odorokasu toki ni wa", "en": "Unexpectedly try to threaten what we have" },
-    { "time": 184, "jp": "絡まる充電のコードのように", "romaji": "Karamaru juuden no koodo no you ni", "en": "Like tangled charging cords" },
-    { "time": 189, "jp": "どれだけ拗れても もう意地でも繋ぎ合っていようよ", "romaji": "Doredake kojirete mo mou iji demo tsunagi atte iyou yo", "en": "No matter how tangled we get, let's stubbornly stay connected" },
-    { "time": 194, "jp": "しょうもないくらいの方が笑えていいんじゃない？", "romaji": "Shoumounai kurai no hou ga waraete yoi n janai?", "en": "Isn't it better when it's silly enough to laugh about?" },
-    { "time": 198, "jp": "きっと思い出して飲んだ時に美味しすぎんじゃない？", "romaji": "Kitto omoidashite nonda toki ni umasu gi n janai?", "en": "Surely when you drink while reminiscing, it'll taste amazing, right?" },
-    { "time": 204, "jp": "なんてさ 強がりを何度も互いの背中に", "romaji": "Nante sa tsuyogari o nando mo tagai no senaka ni", "en": "Such bravado, stamped on each other's backs over and over" },
-    { "time": 210, "jp": "手形みたいにやりすぎなぐらい付け合っていよう", "romaji": "Tegata mitai ni yarisugi na gurai tsuke atte iyou", "en": "Like handprints, let's stamp it on each other way too much" },
-    { "time": 219, "jp": "そっけないくらいで僕らは丁度良いんじゃない？", "romaji": "Sokkenai kurai de bokura wa choudo yoi n janai?", "en": "Aren't we just right being a little distant with each other?" },
-    { "time": 223, "jp": "きっと涙も言葉もおまけでも良いんじゃない？", "romaji": "Kitto namida mo kotoba mo omake demo yoi n janai?", "en": "Surely tears and words can just be extras, right?" },
-    { "time": 228, "jp": "多分世界が次のフェーズへ行こうと見つけてみせるよ", "romaji": "Tabun sekai ga tsugi no feezu e ikou to mitsukete miseru yo", "en": "Probably, no matter where the world heads next, I'll find you" },
-    { "time": 235, "jp": "いや嫌でも見つかるんだろうよ", "romaji": "Iya iya demo mitsukaru n darou yo", "en": "Well, we'd find each other even if we tried not to" },
-    { "time": 238, "jp": "あっけないくらい早い時間も良いんじゃない？", "romaji": "Akkenai kurai hayai jikan mo yoi n janai?", "en": "Isn't it fine that time passes so fast it feels fleeting?" },
-    { "time": 243, "jp": "きっとありふれてないくらいが大切なんじゃない？", "romaji": "Kitto arifurete nai kurai ga taisetsu na n janai?", "en": "Surely the fact that it's not ordinary is what makes it precious, right?" },
-    { "time": 248, "jp": "なんてさ本気で思っちゃう心の恥ずかしさが僕らだけにあるTATTOO", "romaji": "Nante sa honki de omocchau kokoro no hazukashisa ga bokura dake ni aru TATTOO", "en": "The embarrassment of genuinely feeling this — a TATTOO that belongs only to us" },
-    { "time": 263, "jp": "消えない 消さない 消させやしない", "romaji": "Kienai kesanai kesase ya shinai", "en": "It won't disappear, we won't erase it, we won't let it be erased" },
-    { "time": 268, "jp": "大丈夫、 痛みにとっても弱いから", "romaji": "Daijoubu, itami ni tottemo yowai kara", "en": "It's okay, because I'm really bad with pain" },
-    { "time": 273, "jp": "大丈夫、 憧れは今日も憧れのまんま", "romaji": "Daijoubu, akogare wa kyou mo akogare no manma", "en": "It's okay, even today longing stays just as longing" }
+    {
+      "time": 21,
+      "jp": "大丈夫、痛みにとっても弱いから",
+      "romaji": "Daijoubu, itami ni tottemo yowai kara",
+      "en": "It's okay, because I'm very weak when it comes to pain",
+      "learn": {
+        "breakdown": [
+          { "word": "大丈夫", "reading": "だいじょうぶ", "romaji": "daijoubu", "meaning": "it's okay / I'm fine" },
+          { "word": "痛み", "reading": "いたみ", "romaji": "itami", "meaning": "pain [noun]" },
+          { "word": "に", "romaji": "ni", "meaning": "particle — direction/target ('when it comes to')" },
+          { "word": "とっても", "romaji": "tottemo", "meaning": "very, extremely (casual form of とても)" },
+          { "word": "弱い", "reading": "よわい", "romaji": "yowai", "meaning": "weak [い-adjective]" },
+          { "word": "から", "romaji": "kara", "meaning": "because (reason clause ending)" }
+        ],
+        "grammar": "〜から at the end of a clause means 'because'. It gives the reason for what came before. Pattern: [reason]から、[result].",
+        "literal": "Okay — toward pain very weak, because",
+        "example": {
+          "jp": "疲れているから、早く寝る。",
+          "romaji": "Tsukarete iru kara, hayaku neru.",
+          "en": "Because I'm tired, I'll go to bed early."
+        }
+      }
+    },
+    {
+      "time": 26,
+      "jp": "大丈夫、憧れは時に憧れのまんま",
+      "romaji": "Daijoubu, akogare wa toki ni akogare no manma",
+      "en": "It's okay, sometimes yearnings just stay as yearnings",
+      "learn": {
+        "breakdown": [
+          { "word": "大丈夫", "reading": "だいじょうぶ", "romaji": "daijoubu", "meaning": "it's okay" },
+          { "word": "憧れ", "reading": "あこがれ", "romaji": "akogare", "meaning": "longing, yearning, admiration" },
+          { "word": "は", "romaji": "wa", "meaning": "topic particle" },
+          { "word": "時に", "reading": "ときに", "romaji": "toki ni", "meaning": "sometimes, at times" },
+          { "word": "まんま", "romaji": "manma", "meaning": "as-is, just as it is (casual form of まま)" }
+        ],
+        "grammar": "〜のまま / まんま means 'remaining as it is, unchanged'. The word 憧れ repeats (yearning…yearning) for poetic emphasis — a technique called 畳語 (jougo, reduplication).",
+        "literal": "Okay — yearning sometimes as yearning's as-is",
+        "example": {
+          "jp": "夢は夢のままでいい。",
+          "romaji": "Yume wa yume no mama de ii.",
+          "en": "It's okay for a dream to stay just a dream."
+        }
+      }
+    },
+    {
+      "time": 31,
+      "jp": "愛、ジョーク、それとたまにキツめのネガティブ",
+      "romaji": "Ai, jooku, sore to tama ni kitsume no negatibu",
+      "en": "Love, jokes, and sometimes a touch of harsh negativity",
+      "learn": {
+        "breakdown": [
+          { "word": "愛", "reading": "あい", "romaji": "ai", "meaning": "love" },
+          { "word": "ジョーク", "romaji": "jooku", "meaning": "joke (English loanword)" },
+          { "word": "それと", "romaji": "sore to", "meaning": "and that, and also" },
+          { "word": "たまに", "romaji": "tama ni", "meaning": "occasionally, once in a while" },
+          { "word": "キツめ", "reading": "きつめ", "romaji": "kitsume", "meaning": "somewhat harsh/strong (キツい + 〜め suffix)" },
+          { "word": "ネガティブ", "romaji": "negatibu", "meaning": "negativity (English loanword)" }
+        ],
+        "grammar": "〜め is a suffix meaning 'somewhat [adj]' or 'on the [adj] side'. キツい (harsh) → キツめ (a bit harsh). It softens the intensity.",
+        "literal": "Love, joke, and occasionally somewhat-harsh negativity",
+        "example": {
+          "jp": "今日は早めに起きた。",
+          "romaji": "Kyou wa hayame ni okita.",
+          "en": "Today I woke up a bit on the early side."
+        }
+      }
+    },
+    {
+      "time": 35,
+      "jp": "それでいつも元通りさ",
+      "romaji": "Sore de itsumo moto doori sa",
+      "en": "And yet we always go back to how we were",
+      "learn": {
+        "breakdown": [
+          { "word": "それで", "romaji": "sore de", "meaning": "and so, with that, and yet" },
+          { "word": "いつも", "romaji": "itsumo", "meaning": "always, all the time" },
+          { "word": "元通り", "reading": "もとどおり", "romaji": "motodoori", "meaning": "back to the original state, back to normal" },
+          { "word": "さ", "romaji": "sa", "meaning": "sentence-ending particle — casual assertion ('you know')" }
+        ],
+        "grammar": "さ as a sentence-ending particle adds a casual, slightly resigned tone — 'that's just how it is, you know'. Softer and more reflective than よ.",
+        "literal": "With that, always back-to-original — you know",
+        "example": {
+          "jp": "喧嘩しても、いつも元通りさ。",
+          "romaji": "Kenka shite mo, itsumo moto doori sa.",
+          "en": "Even after a fight, we always go back to normal, you know."
+        }
+      }
+    },
+    {
+      "time": 41,
+      "jp": "君と僕との間柄なら",
+      "romaji": "Kimi to boku to no aidagara nara",
+      "en": "Given the relationship between you and me",
+      "learn": {
+        "breakdown": [
+          { "word": "君", "reading": "きみ", "romaji": "kimi", "meaning": "you (intimate, informal)" },
+          { "word": "僕", "reading": "ぼく", "romaji": "boku", "meaning": "I, me (masculine, informal)" },
+          { "word": "間柄", "reading": "あいだがら", "romaji": "aidagara", "meaning": "the nature of a relationship, how two people relate" },
+          { "word": "なら", "romaji": "nara", "meaning": "if it's, given that (sets up a premise)" }
+        ],
+        "grammar": "〜なら is a conditional meaning 'if it's [X] / given that [X]'. It accepts a situation as premise and draws a conclusion from it. Different from たら (event-based) — なら is about framing context.",
+        "literal": "You and me's relationship, if it's that",
+        "example": {
+          "jp": "友達なら、助け合うのは当然だ。",
+          "romaji": "Tomodachi nara, tasuke au no wa touzen da.",
+          "en": "If you're friends, it's natural to help each other."
+        }
+      }
+    },
+    {
+      "time": 45,
+      "jp": "そりゃ出くわす問題も様々",
+      "romaji": "Sorya dekuwasu mondai mo samazama",
+      "en": "Of course the problems we run into are all kinds",
+      "learn": {
+        "breakdown": [
+          { "word": "そりゃ", "romaji": "sorya", "meaning": "of course, naturally (casual form of それは)" },
+          { "word": "出くわす", "reading": "でくわす", "romaji": "dekuwasu", "meaning": "to run into, to encounter unexpectedly" },
+          { "word": "問題", "reading": "もんだい", "romaji": "mondai", "meaning": "problem, issue" },
+          { "word": "も", "romaji": "mo", "meaning": "also, even (inclusive particle)" },
+          { "word": "様々", "reading": "さまざま", "romaji": "samazama", "meaning": "various, all kinds, diverse" }
+        ],
+        "grammar": "そりゃ (< それは) introduces a self-evident conclusion: 'of course, naturally'. Combined with なら in the previous line: 'given X relationship, of course Y follows'.",
+        "literal": "Of-course encounter problems also various",
+        "example": {
+          "jp": "長く付き合えば、問題も様々出てくる。",
+          "romaji": "Nagaku tsukiaeba, mondai mo samazama dete kuru.",
+          "en": "In a long relationship, all kinds of problems come up."
+        }
+      }
+    },
+    {
+      "time": 50,
+      "jp": "だから隣に居りゃ 旅の道すがら",
+      "romaji": "Dakara tonari ni irya tabi no michisugara",
+      "en": "So as long as you're beside me on this journey",
+      "learn": {
+        "breakdown": [
+          { "word": "だから", "romaji": "dakara", "meaning": "that's why, so, therefore" },
+          { "word": "隣", "reading": "となり", "romaji": "tonari", "meaning": "beside, next to" },
+          { "word": "居りゃ", "reading": "おりゃ", "romaji": "orya", "meaning": "if [you] are there (contracted 居れば)" },
+          { "word": "旅", "reading": "たび", "romaji": "tabi", "meaning": "journey, trip" },
+          { "word": "道すがら", "reading": "みちすがら", "romaji": "michisugara", "meaning": "along the way, while on the road" }
+        ],
+        "grammar": "〜いれば contracts to 〜いりゃ / 居りゃ in casual speech and song lyrics. 居れば → 居りゃ = 'if [you] are there'. This line continues into the next — the thought spans two lines.",
+        "literal": "That's why, beside if-there, journey's along-the-way",
+        "example": {
+          "jp": "隣に居てくれるから、怖くない。",
+          "romaji": "Tonari ni ite kureru kara, kowakunai.",
+          "en": "Because you're beside me, I'm not scared."
+        }
+      }
+    },
+    {
+      "time": 55,
+      "jp": "どんなヤミからも命からがら",
+      "romaji": "Donna yami kara mo inochi karagara",
+      "en": "We'll barely escape from any kind of darkness",
+      "learn": {
+        "breakdown": [
+          { "word": "どんな", "romaji": "donna", "meaning": "any kind of, whatever kind of" },
+          { "word": "ヤミ", "reading": "やみ", "romaji": "yami", "meaning": "darkness (katakana for stylistic emphasis)" },
+          { "word": "からも", "romaji": "kara mo", "meaning": "even from (から = from, も = even)" },
+          { "word": "命からがら", "reading": "いのちからがら", "romaji": "inochi karagara", "meaning": "barely escaping with one's life, by the skin of one's teeth" }
+        ],
+        "grammar": "命からがら is a fixed expression (慣用句) meaning 'barely with one's life'. Writing ヤミ in katakana instead of 闇 (kanji) is a stylistic choice — katakana signals intensity or an alien/looming quality.",
+        "literal": "Any darkness even from, barely-with-one's-life",
+        "example": {
+          "jp": "事故から命からがら逃げた。",
+          "romaji": "Jiko kara inochi karagara nigeta.",
+          "en": "I barely escaped from the accident with my life."
+        }
+      }
+    },
+    {
+      "time": 62,
+      "jp": "助けるよ 助けてよ My Buddy, Darling",
+      "romaji": "Tasukeru yo tasukete yo My Buddy, Darling",
+      "en": "I'll save you, save me, My Buddy, Darling",
+      "learn": {
+        "breakdown": [
+          { "word": "助ける", "reading": "たすける", "romaji": "tasukeru", "meaning": "to help, to save, to rescue [verb]" },
+          { "word": "よ", "romaji": "yo", "meaning": "sentence-ending particle — emphatic assertion" },
+          { "word": "助けて", "reading": "たすけて", "romaji": "tasukete", "meaning": "help me! save me! (て-form = request/plea)" }
+        ],
+        "grammar": "The て-form of a verb used alone is a request or plea: 助けて = 'please help me!'. The same verb appears twice — first asserting (I will save you) then pleading (save me). This mirrors the mutual nature of the relationship.",
+        "literal": "Will-save [asserting]! Save-me [pleading]! My Buddy, Darling",
+        "example": {
+          "jp": "助けてください！道に迷いました。",
+          "romaji": "Tasukete kudasai! Michi ni mayoimashita.",
+          "en": "Please help me! I got lost."
+        }
+      }
+    },
+    {
+      "time": 65,
+      "jp": "SOSが不器用でも 気にしないからもう",
+      "romaji": "SOS ga bukiyou demo ki ni shinai kara mou",
+      "en": "Even if your SOS is clumsy, I don't mind anymore",
+      "learn": {
+        "breakdown": [
+          { "word": "SOS", "romaji": "SOS", "meaning": "SOS — emergency signal, cry for help" },
+          { "word": "が", "romaji": "ga", "meaning": "subject particle" },
+          { "word": "不器用", "reading": "ぶきよう", "romaji": "bukiyou", "meaning": "clumsy, awkward, unskillful" },
+          { "word": "でも", "romaji": "demo", "meaning": "even if, even though (concessive)" },
+          { "word": "気にしない", "reading": "きにしない", "romaji": "ki ni shinai", "meaning": "don't mind, don't care about" },
+          { "word": "もう", "romaji": "mou", "meaning": "already, anymore — signals a firm decision" }
+        ],
+        "grammar": "〜でも means 'even if' — it concedes a point while dismissing its importance. もう here signals emotional finality: 'I've decided I won't mind'. Compare: もう食べた (already ate) vs もう気にしない (done caring — it's decided).",
+        "literal": "SOS subject clumsy even-if, don't-mind because, now",
+        "example": {
+          "jp": "下手でも、一生懸命やっていれば気にしない。",
+          "romaji": "Heta demo, isshoukenmei yatte ireba ki ni shinai.",
+          "en": "Even if you're not good at it, I don't mind as long as you're trying hard."
+        }
+      }
+    },
+    {
+      "time": 73,
+      "jp": "そっけないくらいで僕らは丁度良いんじゃない？",
+      "romaji": "Sokkenai kurai de bokura wa choudo ii n janai?",
+      "en": "Isn't it just right for us to be a little cold and distant?",
+      "learn": {
+        "breakdown": [
+          { "word": "そっけない", "romaji": "sokkenai", "meaning": "cold, curt, indifferent, standoffish" },
+          { "word": "くらいで", "romaji": "kurai de", "meaning": "at the level of, to that extent (degree marker)" },
+          { "word": "僕ら", "reading": "ぼくら", "romaji": "bokura", "meaning": "we, us (masculine, casual)" },
+          { "word": "丁度良い", "reading": "ちょうどいい", "romaji": "choudo ii", "meaning": "just right, perfect amount" },
+          { "word": "んじゃない？", "romaji": "n janai?", "meaning": "isn't it? (casual rhetorical question tag)" }
+        ],
+        "grammar": "〜くらいで means 'at the level of [X]'. Here: 'being THIS cold is just the right amount for us'. 〜んじゃない？ is a common spoken rhetorical question — softer and more inviting than でしょう？",
+        "literal": "Cold-and-indifferent level-of, we just-right isn't-it?",
+        "example": {
+          "jp": "これくらいの距離感がちょうどいい。",
+          "romaji": "Kore kurai no kyori-kan ga choudo ii.",
+          "en": "This level of distance between us is just right."
+        }
+      }
+    },
+    {
+      "time": 77,
+      "jp": "きっと涙も言葉もおまけでも良いんじゃない？",
+      "romaji": "Kitto namida mo kotoba mo omake demo ii n janai?",
+      "en": "Surely it's fine if tears and words are just extras, right?",
+      "learn": {
+        "breakdown": [
+          { "word": "きっと", "romaji": "kitto", "meaning": "surely, certainly (speaker's confidence)" },
+          { "word": "涙", "reading": "なみだ", "romaji": "namida", "meaning": "tears" },
+          { "word": "も〜も", "romaji": "mo~mo", "meaning": "both X and Y (inclusive listing)" },
+          { "word": "言葉", "reading": "ことば", "romaji": "kotoba", "meaning": "words, language" },
+          { "word": "おまけ", "romaji": "omake", "meaning": "bonus, extra, freebie — something nice but not essential" },
+          { "word": "でもいい", "romaji": "demo ii", "meaning": "it's okay even if [X]" }
+        ],
+        "grammar": "〜でもいい means 'it's fine even if it's [X]'. おまけ (bonus/extra) suggests that words and tears are nice but not required — the connection exists beyond expression.",
+        "literal": "Surely tears also words also bonus even-if okay isn't-it?",
+        "example": {
+          "jp": "うまく言えなくてもいいんじゃない？",
+          "romaji": "Umaku ienakute mo iin janai?",
+          "en": "Isn't it okay even if you can't say it well?"
+        }
+      }
+    },
+    {
+      "time": 82,
+      "jp": "多分世界が次のフェーズへ行こうと見つけてみせるよ",
+      "romaji": "Tabun sekai ga tsugi no feezu e ikou to mitsukete miseru yo",
+      "en": "As the world moves on to the next phase, I'll make sure we find it",
+      "learn": {
+        "breakdown": [
+          { "word": "多分", "reading": "たぶん", "romaji": "tabun", "meaning": "probably, maybe (less certain than きっと)" },
+          { "word": "世界", "reading": "せかい", "romaji": "sekai", "meaning": "world" },
+          { "word": "次", "reading": "つぎ", "romaji": "tsugi", "meaning": "next" },
+          { "word": "フェーズ", "romaji": "feezu", "meaning": "phase (English loanword)" },
+          { "word": "へ", "romaji": "e", "meaning": "particle — direction ('toward', 'to')" },
+          { "word": "行こう", "reading": "いこう", "romaji": "ikou", "meaning": "let's go, going to go (volitional of 行く)" },
+          { "word": "見つけてみせる", "reading": "みつけてみせる", "romaji": "mitsukete miseru", "meaning": "will definitely find — just watch me (みつける + てみせる)" }
+        ],
+        "grammar": "〜てみせる = 'I will definitely do X, just watch me'. Expresses strong determination. みつける (find) + てみせる = 'I will definitely find it'. Add よ for extra emphasis.",
+        "literal": "Probably world next phase toward going, will-definitely-find (emphasis)",
+        "example": {
+          "jp": "絶対に成功してみせるよ。",
+          "romaji": "Zettai ni seikou shite miseru yo.",
+          "en": "I'll definitely succeed — just watch me."
+        }
+      }
+    },
+    {
+      "time": 89,
+      "jp": "いや嫌でも見つかるんだろうよ",
+      "romaji": "Iya, iya demo mitsukaru n darou yo",
+      "en": "Actually, it'll turn up whether we like it or not",
+      "learn": {
+        "breakdown": [
+          { "word": "いや", "romaji": "iya", "meaning": "no, actually, well — discourse marker walking back the previous statement" },
+          { "word": "嫌でも", "reading": "いやでも", "romaji": "iya demo", "meaning": "whether we like it or not, inevitably" },
+          { "word": "見つかる", "reading": "みつかる", "romaji": "mitsukaru", "meaning": "to be found, to turn up (intransitive)" },
+          { "word": "んだろう", "romaji": "n darou", "meaning": "probably is the case (explanatory + conjecture)" },
+          { "word": "よ", "romaji": "yo", "meaning": "emphasis particle" }
+        ],
+        "grammar": "見つかる (intransitive: to be found) vs 見つける (transitive: to find). The previous line said 'I'll find it!' — this line gently corrects with 'actually it'll just be found on its own'. 嫌でも = 'even if reluctant / whether you like it or not'.",
+        "literal": "Actually, even-if-reluctant, will-be-found probably (emphasis)",
+        "example": {
+          "jp": "嫌でも、いつか向き合わなければならない。",
+          "romaji": "Iya demo, itsuka mukiawa nakereba naranai.",
+          "en": "Whether we like it or not, we'll have to face it someday."
+        }
+      }
+    },
+    {
+      "time": 93,
+      "jp": "あっけないくらい早い時間も良いんじゃない？",
+      "romaji": "Akkenai kurai hayai jikan mo ii n janai?",
+      "en": "Isn't it fine that time passes by so surprisingly fast?",
+      "learn": {
+        "breakdown": [
+          { "word": "あっけない", "romaji": "akkenai", "meaning": "surprisingly brief, over before you know it, anticlimactically quick" },
+          { "word": "くらい", "romaji": "kurai", "meaning": "to the extent of, as much as" },
+          { "word": "早い", "reading": "はやい", "romaji": "hayai", "meaning": "fast, quick [い-adjective]" },
+          { "word": "時間", "reading": "じかん", "romaji": "jikan", "meaning": "time" },
+          { "word": "も", "romaji": "mo", "meaning": "also, even" },
+          { "word": "いいんじゃない？", "romaji": "ii n janai?", "meaning": "isn't it okay? isn't it fine?" }
+        ],
+        "grammar": "あっけない is a rich adjective meaning 'disappointingly quick, over before you were ready'. あっけないくらい = 'to a surprisingly quick degree'. It often carries gentle wistfulness.",
+        "literal": "Surprisingly-quick to-the-extent-of fast time also okay isn't-it?",
+        "example": {
+          "jp": "楽しい時間はあっけないくらい過ぎてしまう。",
+          "romaji": "Tanoshii jikan wa akkenai kurai sugite shimau.",
+          "en": "Fun times pass by surprisingly quickly."
+        }
+      }
+    },
+    {
+      "time": 97,
+      "jp": "きっとありふれてないくらいが大切なんじゃない？",
+      "romaji": "Kitto arifurete nai kurai ga taisetsu na n janai?",
+      "en": "Surely something so uncommon is exactly what makes it precious, right?",
+      "learn": {
+        "breakdown": [
+          { "word": "きっと", "romaji": "kitto", "meaning": "surely, certainly" },
+          { "word": "ありふれてない", "romaji": "arifurete nai", "meaning": "not commonplace, not ordinary, rare (negative of ありふれる)" },
+          { "word": "くらいが", "romaji": "kurai ga", "meaning": "it is precisely that extent which..." },
+          { "word": "大切", "reading": "たいせつ", "romaji": "taisetsu", "meaning": "precious, important, dear" },
+          { "word": "なんじゃない？", "romaji": "na n janai?", "meaning": "isn't it? (rhetorical)" }
+        ],
+        "grammar": "ありふれる means 'to be commonplace, to be everywhere'. ありふれてない = 'not commonplace, rare'. 〜くらいが大切 = 'it's precisely that rarity which matters'.",
+        "literal": "Surely not-commonplace extent is precious isn't-it?",
+        "example": {
+          "jp": "ありふれてない経験だからこそ、大切にしたい。",
+          "romaji": "Arifurete nai keiken dakara koso, taisetsu ni shitai.",
+          "en": "It's precisely because it's a rare experience that I want to treasure it."
+        }
+      }
+    },
+    {
+      "time": 102,
+      "jp": "なんてさ 本気で思っちゃう心の恥ずかしさが僕らだけにあるTATTOO",
+      "romaji": "Nante sa honki de omochau kokoro no hazukashisa ga bokura dake ni aru TATTOO",
+      "en": "Things like that — the embarrassment of genuinely believing it is a TATTOO that belongs only to us",
+      "learn": {
+        "breakdown": [
+          { "word": "なんてさ", "romaji": "nante sa", "meaning": "things like that, you know — casual dismissal + さ particle" },
+          { "word": "本気で", "reading": "ほんきで", "romaji": "honki de", "meaning": "seriously, genuinely, for real" },
+          { "word": "思っちゃう", "reading": "おもっちゃう", "romaji": "omocchau", "meaning": "can't help but think (思う + ちゃう)" },
+          { "word": "心", "reading": "こころ", "romaji": "kokoro", "meaning": "heart, mind" },
+          { "word": "恥ずかしさ", "reading": "はずかしさ", "romaji": "hazukashisa", "meaning": "embarrassment, sense of shame" },
+          { "word": "僕らだけに", "reading": "ぼくらだけに", "romaji": "bokura dake ni", "meaning": "only in us, belonging to us alone" },
+          { "word": "TATTOO", "romaji": "TATTOO", "meaning": "tattoo — the title word, a permanent mark" }
+        ],
+        "grammar": "〜ちゃう (contracted from てしまう) = 'end up doing / can't help but do'. 思っちゃう = 'I can't help but think it'. This marks the feeling as involuntary. This is the title line: the embarrassing sincerity of this bond IS the tattoo.",
+        "literal": "Things like that — genuinely end-up-thinking, heart's embarrassment that only in us exists TATTOO",
+        "example": {
+          "jp": "つい笑っちゃった。",
+          "romaji": "Tsui waracchaetta.",
+          "en": "I couldn't help but laugh."
+        }
+      }
+    },
+    {
+      "time": 117,
+      "jp": "消えない 消さない 消させやしない",
+      "romaji": "Kienai kesanai kesase ya shinai",
+      "en": "Won't fade, won't erase it, won't let it be erased",
+      "learn": {
+        "breakdown": [
+          { "word": "消えない", "reading": "きえない", "romaji": "kienai", "meaning": "won't fade/disappear (negative of 消える — intransitive)" },
+          { "word": "消さない", "reading": "けさない", "romaji": "kesanai", "meaning": "won't erase (negative of 消す — transitive)" },
+          { "word": "消させやしない", "reading": "けさせやしない", "romaji": "kesase ya shinai", "meaning": "absolutely won't let it be erased (causative + emphatic negative)" }
+        ],
+        "grammar": "〜やしない is an emphatic negative: 消させやしない = 'I absolutely will not allow it to be erased'. The three-part escalation covers all bases: intransitive (it fades) → transitive (I erase) → causative (someone makes it erased).",
+        "literal": "Won't-fade, won't-erase, absolutely-won't-allow-to-be-erased",
+        "example": {
+          "jp": "誰にも消させやしない。",
+          "romaji": "Dare ni mo kesase ya shinai.",
+          "en": "I won't let anyone erase it."
+        }
+      }
+    },
+    {
+      "time": 122,
+      "jp": "大丈夫、見せびらかす必要はないから",
+      "romaji": "Daijoubu, misebikasu hitsuyou wa nai kara",
+      "en": "It's okay, because there's no need to show it off",
+      "learn": {
+        "breakdown": [
+          { "word": "大丈夫", "reading": "だいじょうぶ", "romaji": "daijoubu", "meaning": "it's okay" },
+          { "word": "見せびらかす", "reading": "みせびらかす", "romaji": "misebikasu", "meaning": "to show off, to flaunt, to display ostentatiously" },
+          { "word": "必要", "reading": "ひつよう", "romaji": "hitsuyou", "meaning": "necessity, need" },
+          { "word": "は", "romaji": "wa", "meaning": "topic particle" },
+          { "word": "ない", "romaji": "nai", "meaning": "doesn't exist, there isn't" },
+          { "word": "から", "romaji": "kara", "meaning": "because" }
+        ],
+        "grammar": "〜必要はない = 'there is no need to [verb]'. Pattern: [verb plain form] + 必要はない. 見せびらかす is expressive: 見せる (show) + びらかす (spread/flaunt) = to show off proudly.",
+        "literal": "Okay — flaunt necessity doesn't-exist because",
+        "example": {
+          "jp": "わざわざ見せびらかす必要はない。",
+          "romaji": "Wazawaza misebikasu hitsuyou wa nai.",
+          "en": "There's no need to go out of your way to show it off."
+        }
+      }
+    },
+    {
+      "time": 127,
+      "jp": "大丈夫、自分たちだけ分かっていりゃいいから",
+      "romaji": "Daijoubu, jibuntachi dake wakatte irya ii kara",
+      "en": "It's okay, because it's enough that only we understand",
+      "learn": {
+        "breakdown": [
+          { "word": "自分たち", "reading": "じぶんたち", "romaji": "jibuntachi", "meaning": "ourselves, we ourselves (自分 + たち plural)" },
+          { "word": "だけ", "romaji": "dake", "meaning": "only, just" },
+          { "word": "分かって", "reading": "わかって", "romaji": "wakatte", "meaning": "understanding (て-form of 分かる)" },
+          { "word": "いりゃ", "romaji": "irya", "meaning": "if [we] are [doing] (contracted from いれば)" },
+          { "word": "いい", "romaji": "ii", "meaning": "good, okay, that's enough" },
+          { "word": "から", "romaji": "kara", "meaning": "because" }
+        ],
+        "grammar": "〜ていりゃいい (contracted from ていればいい) = 'it's enough to be [doing X]'. Pattern: [て-form]いればいい = 'all you need is to be doing X'. だけ narrows it: 'just us understanding is enough'.",
+        "literal": "Okay — ourselves only, understanding if-are, that's-enough because",
+        "example": {
+          "jp": "自分たちだけ分かっていれば十分だ。",
+          "romaji": "Jibuntachi dake wakatte ireba juubun da.",
+          "en": "It's enough if only we understand."
+        }
+      }
+    },
+    {
+      "time": 132,
+      "jp": "ハイボール、爆笑の渦に呑まれるネガティブ",
+      "romaji": "Haibooru, bakushou no uzu ni nomareru negatibu",
+      "en": "Highballs, negativity swept up in a whirlpool of laughter",
+      "learn": {
+        "breakdown": [
+          { "word": "ハイボール", "romaji": "haibooru", "meaning": "highball — whisky + soda, a popular Japanese drink" },
+          { "word": "爆笑", "reading": "ばくしょう", "romaji": "bakushou", "meaning": "roaring laughter, bursting out laughing" },
+          { "word": "渦", "reading": "うず", "romaji": "uzu", "meaning": "whirlpool, vortex, swirl" },
+          { "word": "に", "romaji": "ni", "meaning": "particle — location/target" },
+          { "word": "呑まれる", "reading": "のまれる", "romaji": "nomareru", "meaning": "to be swept up in, to be swallowed (passive of 呑む)" },
+          { "word": "ネガティブ", "romaji": "negatibu", "meaning": "negativity" }
+        ],
+        "grammar": "呑まれる is the passive of 呑む (to swallow). Here: negativity gets swallowed by the laughter — it's overwhelmed. Compare verse 1's キツめのネガティブ (harsh negativity) — in verse 2, negativity is absorbed into laughter. The mood has shifted.",
+        "literal": "Highball, roaring-laughter's whirlpool into, swept-up negativity",
+        "example": {
+          "jp": "笑いの渦に呑まれて、悩みを忘れた。",
+          "romaji": "Warai no uzu ni nomarete, nayami wo wasureta.",
+          "en": "Swept up in laughter, I forgot my worries."
+        }
+      }
+    },
+    {
+      "time": 136,
+      "jp": "まるで まるで別次元さ",
+      "romaji": "Marude marude betsu jigen sa",
+      "en": "It's like, it's like a whole different dimension",
+      "learn": {
+        "breakdown": [
+          { "word": "まるで", "romaji": "marude", "meaning": "just like, as if, it's as though (sets up a comparison)" },
+          { "word": "別次元", "reading": "べつじげん", "romaji": "betsu jigen", "meaning": "a completely different dimension, a whole other level" },
+          { "word": "さ", "romaji": "sa", "meaning": "sentence-ending particle — casual assertion" }
+        ],
+        "grammar": "まるで usually pairs with よう/みたい: まるで〜のようだ = 'it's just like [X]'. Here the comparison is left open — まるで別次元さ — dropping the よう for a more direct effect. Repetition (まるで まるで) conveys stunned, searching speech.",
+        "literal": "Just-like, just-like, different-dimension — you know",
+        "example": {
+          "jp": "まるで別次元にいるみたいだ。",
+          "romaji": "Marude betsu jigen ni iru mitai da.",
+          "en": "It's like being in a completely different dimension."
+        }
+      }
+    },
+    {
+      "time": 141,
+      "jp": "そしてそんな君と僕との間柄なら",
+      "romaji": "Soshite sonna kimi to boku to no aidagara nara",
+      "en": "And given a relationship like that between you and me",
+      "learn": {
+        "breakdown": [
+          { "word": "そして", "romaji": "soshite", "meaning": "and, and then (forward-moving connector)" },
+          { "word": "そんな", "romaji": "sonna", "meaning": "that kind of, like that (references what was just described)" },
+          { "word": "間柄", "reading": "あいだがら", "romaji": "aidagara", "meaning": "the nature of a relationship" },
+          { "word": "なら", "romaji": "nara", "meaning": "given that, if it's (sets premise)" }
+        ],
+        "grammar": "そんな references what came before: 'that kind of relationship just described'. This verse 2 version adds そして (and then) and そんな (that kind of), giving it more weight.",
+        "literal": "And, that-kind-of you and me's relationship, given that",
+        "example": {
+          "jp": "そんな関係なら、何でも話せるはずだ。",
+          "romaji": "Sonna kankei nara, nandemo hanaseru hazu da.",
+          "en": "If it's that kind of relationship, you should be able to talk about anything."
+        }
+      }
+    },
+    {
+      "time": 147,
+      "jp": "そりゃ赤らんだ顔だって晒すわな",
+      "romaji": "Sorya akararanda kao datte sarasu wa na",
+      "en": "Of course we'd show each other our flushed, embarrassed faces",
+      "learn": {
+        "breakdown": [
+          { "word": "そりゃ", "romaji": "sorya", "meaning": "of course (casual それは)" },
+          { "word": "赤らんだ", "reading": "あからんだ", "romaji": "akaranda", "meaning": "flushed red, blushed (past of 赤らむ)" },
+          { "word": "顔", "reading": "かお", "romaji": "kao", "meaning": "face" },
+          { "word": "だって", "romaji": "datte", "meaning": "even (emphatic particle — 'even something as embarrassing as')" },
+          { "word": "晒す", "reading": "さらす", "romaji": "sarasu", "meaning": "to expose, to reveal, to show (even something private)" },
+          { "word": "わな", "romaji": "wa na", "meaning": "sentence-ending: gentle self-evident confirmation (わ + な)" }
+        ],
+        "grammar": "わな at end of sentence (わ + な) expresses self-evident resignation or confirmation: 'of course that's how it would be'. だって highlights that even embarrassing things get revealed — this is genuine intimacy.",
+        "literal": "Of-course flushed-face even, expose — naturally-of-course",
+        "example": {
+          "jp": "そんな仲なら、恥ずかしい顔も晒せる。",
+          "romaji": "Sonna naka nara, hazukashii kao mo sarasu koto ga dekiru.",
+          "en": "If you're that close, you can show even your embarrassing face."
+        }
+      }
+    },
+    {
+      "time": 152,
+      "jp": "今は例えるとか うまく出来ないけどさ",
+      "romaji": "Ima wa tatoeru toka umaku dekinai kedo sa",
+      "en": "I can't quite put it into words right now, but",
+      "learn": {
+        "breakdown": [
+          { "word": "今は", "reading": "いまは", "romaji": "ima wa", "meaning": "right now, at this point in time" },
+          { "word": "例えるとか", "reading": "たとえるとか", "romaji": "tatoeru toka", "meaning": "things like finding a metaphor, trying to put it into words" },
+          { "word": "うまく", "romaji": "umaku", "meaning": "well, skillfully, properly" },
+          { "word": "出来ない", "reading": "できない", "romaji": "dekinai", "meaning": "can't do, unable to" },
+          { "word": "けどさ", "romaji": "kedo sa", "meaning": "but — soft trailing contrast, 'but you know...'" }
+        ],
+        "grammar": "〜とか = 'things like [X]' — vague listing. 例えるとか = 'things like putting it into words'. けどさ is a common spoken ending that trails off — 'but you know...' — implying the thought continues even when unspoken.",
+        "literal": "Right-now things-like-putting-into-words, well can't-do, but — you know",
+        "example": {
+          "jp": "うまく言えないけど、大切だと思ってる。",
+          "romaji": "Umaku ienai kedo, taisetsu da to omotteiru.",
+          "en": "I can't say it well, but I think you're important to me."
+        }
+      }
+    },
+    {
+      "time": 157,
+      "jp": "かけがえない類いの何かさながら",
+      "romaji": "Kakegae nai tagui no nanika sanagara",
+      "en": "It's like something truly irreplaceable",
+      "learn": {
+        "breakdown": [
+          { "word": "かけがえない", "romaji": "kakegae nai", "meaning": "irreplaceable, invaluable (literally: unable to substitute)" },
+          { "word": "類い", "reading": "たぐい", "romaji": "tagui", "meaning": "kind, type, the likes of (rare, literary word)" },
+          { "word": "何か", "reading": "なにか", "romaji": "nanika", "meaning": "something" },
+          { "word": "さながら", "romaji": "sanagara", "meaning": "just like, as if, exactly like (literary/poetic adverb)" }
+        ],
+        "grammar": "さながら is a literary/poetic adverb meaning 'just like / exactly as if'. More formal and evocative than まるで. かけがえない is a compound: かけ (substitute/exchange) + がえない (can't be done) = cannot be replaced.",
+        "literal": "Irreplaceable kind's something, just-like",
+        "example": {
+          "jp": "君はかけがえない存在だ。",
+          "romaji": "Kimi wa kakegae nai sonzai da.",
+          "en": "You are an irreplaceable presence to me."
+        }
+      }
+    },
+    {
+      "time": 163,
+      "jp": "リスペクト 増してくようなDaily Feeling",
+      "romaji": "Risupekuto mashite ku you na Daily Feeling",
+      "en": "A daily feeling like respect that keeps on growing",
+      "learn": {
+        "breakdown": [
+          { "word": "リスペクト", "romaji": "risupekuto", "meaning": "respect (English loanword)" },
+          { "word": "増してく", "reading": "ましてく", "romaji": "mashite ku", "meaning": "keeps growing, increasing (増す + ていく contracted to てく)" },
+          { "word": "ような", "romaji": "you na", "meaning": "like, as if (simile modifier)" },
+          { "word": "Daily Feeling", "romaji": "Daily Feeling", "meaning": "daily feeling (English phrase)" }
+        ],
+        "grammar": "〜ていく contracts to 〜てく in casual speech and song: 増していく → 増してく = 'keeps growing (progressively)'. This contraction is very common in lyrics and conversation.",
+        "literal": "Respect keeps-growing like, Daily Feeling",
+        "example": {
+          "jp": "一緒にいるほど、リスペクトが増していく。",
+          "romaji": "Issho ni iru hodo, risupekuto ga mashite iku.",
+          "en": "The more time we spend together, the more my respect grows."
+        }
+      }
+    },
+    {
+      "time": 167,
+      "jp": "言い合ったりするのにも もう慣れっこだろう",
+      "romaji": "Ii attari suru no ni mo mou narekko darou",
+      "en": "By now we're used to arguing with each other too, aren't we",
+      "learn": {
+        "breakdown": [
+          { "word": "言い合う", "reading": "いいあう", "romaji": "ii au", "meaning": "to argue, to exchange words back and forth" },
+          { "word": "〜たりする", "romaji": "~tari suru", "meaning": "doing things like [X] (casual listing)" },
+          { "word": "のにも", "romaji": "no ni mo", "meaning": "even for / even when it comes to" },
+          { "word": "もう", "romaji": "mou", "meaning": "already, by now" },
+          { "word": "慣れっこ", "reading": "なれっこ", "romaji": "narekko", "meaning": "completely used to, totally accustomed (casual intensified 慣れる)" },
+          { "word": "だろう", "romaji": "darou", "meaning": "right? probably (seeking agreement)" }
+        ],
+        "grammar": "慣れっこ is a colloquial intensified form of 慣れる (get used to). The っこ suffix adds emphasis and casualness: 'totally used to it'. 〜たりする lists an action as one example among others.",
+        "literal": "Arguing-back-and-forth doing-things-like, even-when, already totally-used-to, right?",
+        "example": {
+          "jp": "言い合いには、もう慣れっこだ。",
+          "romaji": "Ii ai ni wa, mou narekko da.",
+          "en": "I'm totally used to our arguments by now."
+        }
+      }
+    },
+    {
+      "time": 174,
+      "jp": "情け容赦無い時代のバッドワードが",
+      "romaji": "Nasake yousha nai jidai no baddo waado ga",
+      "en": "The harsh words of a merciless era",
+      "learn": {
+        "breakdown": [
+          { "word": "情け容赦無い", "reading": "なさけようしゃない", "romaji": "nasake yousha nai", "meaning": "merciless, without pity or mercy" },
+          { "word": "時代", "reading": "じだい", "romaji": "jidai", "meaning": "era, age, the times" },
+          { "word": "バッドワード", "romaji": "baddo waado", "meaning": "bad word (English loanword)" },
+          { "word": "が", "romaji": "ga", "meaning": "subject particle (sentence continues next line)" }
+        ],
+        "grammar": "情け容赦無い combines 情け (compassion), 容赦 (mercy/pardon), and 無い (without). The が subject particle here connects to the verb どれだけ拗れても further on. Japanese sentences can stretch across multiple lines.",
+        "literal": "Merciless era's bad-words subject [continues...]",
+        "example": {
+          "jp": "情け容赦無い言葉が心を傷つける。",
+          "romaji": "Nasake yousha nai kotoba ga kokoro wo kizutsukeru.",
+          "en": "Merciless words wound the heart."
+        }
+      }
+    },
+    {
+      "time": 178,
+      "jp": "ひょんな時に僕らの事を脅かす時には",
+      "romaji": "Hyon na toki ni bokura no koto wo odokasu toki ni wa",
+      "en": "When they unexpectedly come to threaten us",
+      "learn": {
+        "breakdown": [
+          { "word": "ひょんな", "romaji": "hyon na", "meaning": "unexpected, strange, out of nowhere (colloquial adjective)" },
+          { "word": "時に", "reading": "ときに", "romaji": "toki ni", "meaning": "at times, when" },
+          { "word": "僕らの事", "reading": "ぼくらのこと", "romaji": "bokura no koto", "meaning": "things concerning us, us" },
+          { "word": "脅かす", "reading": "おどかす", "romaji": "odokasu", "meaning": "to threaten, to intimidate" },
+          { "word": "時には", "reading": "ときには", "romaji": "toki ni wa", "meaning": "at such times" }
+        ],
+        "grammar": "ひょんな is a colloquial adjective meaning 'unexpected, out of nowhere'. It only appears before nouns: ひょんなこと (unexpected thing), ひょんな時 (unexpected moment). Continues the sentence from the previous line.",
+        "literal": "Unexpected time in, us about, threaten, at-such-times",
+        "example": {
+          "jp": "ひょんなことから仲良くなった。",
+          "romaji": "Hyon na koto kara naka yoku natta.",
+          "en": "We became close friends out of nowhere."
+        }
+      }
+    },
+    {
+      "time": 184,
+      "jp": "絡まる充電のコードのように",
+      "romaji": "Karamaru juuden no koodo no you ni",
+      "en": "Like tangled charging cables",
+      "learn": {
+        "breakdown": [
+          { "word": "絡まる", "reading": "からまる", "romaji": "karamaru", "meaning": "to tangle, to get entangled" },
+          { "word": "充電", "reading": "じゅうでん", "romaji": "juuden", "meaning": "charging (a battery/device)" },
+          { "word": "コード", "romaji": "koodo", "meaning": "cord, cable (English loanword)" },
+          { "word": "のように", "romaji": "no you ni", "meaning": "like, similar to (simile)" }
+        ],
+        "grammar": "〜のように / 〜のような is the standard simile pattern: 'like [X]'. This everyday image (tangled phone charger cables) grounds an abstract threat into something everyone recognises — modern, relatable, and charming.",
+        "literal": "Tangling charging cord's like",
+        "example": {
+          "jp": "コードのように絡まった問題を解きほぐす。",
+          "romaji": "Koodo no you ni karamatta mondai wo tokihogusu.",
+          "en": "Untangling the problems like tangled cables."
+        }
+      }
+    },
+    {
+      "time": 189,
+      "jp": "どれだけ拗れても もう意地でも繋ぎ合っていようよ",
+      "romaji": "Dore dake kojirete mo mou iji demo tsunagi atte iyou yo",
+      "en": "No matter how tangled things get, let's stubbornly stay connected",
+      "learn": {
+        "breakdown": [
+          { "word": "どれだけ", "romaji": "dore dake", "meaning": "no matter how much, to whatever degree" },
+          { "word": "拗れて", "reading": "こじれて", "romaji": "kojirete", "meaning": "getting complicated/entangled (て-form of 拗れる)" },
+          { "word": "も", "romaji": "mo", "meaning": "even (concessive)" },
+          { "word": "意地でも", "reading": "いじでも", "romaji": "iji demo", "meaning": "stubbornly, out of sheer will, no matter what" },
+          { "word": "繋ぎ合う", "reading": "つなぎあう", "romaji": "tsunagi au", "meaning": "to stay connected with each other (mutual form)" },
+          { "word": "ていようよ", "romaji": "te iyou yo", "meaning": "let's stay [doing this] (volitional of ている)" }
+        ],
+        "grammar": "〜ていよう (volitional of ている) = 'let's remain in this state'. 繋ぎ合っていよう = 'let's stay connected to each other'. 意地でも is a strong idiom: 意地 (stubbornness) + でも = 'even with sheer stubbornness / no matter what'.",
+        "literal": "However-tangled even, stubbornly, let's-stay-connected",
+        "example": {
+          "jp": "意地でも諦めない。",
+          "romaji": "Iji demo akiramenai.",
+          "en": "I won't give up out of sheer stubbornness."
+        }
+      }
+    },
+    {
+      "time": 194,
+      "jp": "しょうもないくらいの方が笑えていいんじゃない？",
+      "romaji": "Shoumonai kurai no hou ga waraete ii n janai?",
+      "en": "Isn't it better when things are so trivial you can laugh at them?",
+      "learn": {
+        "breakdown": [
+          { "word": "しょうもない", "romaji": "shoumonai", "meaning": "trivial, pointless, worthless (Kansai dialect origin, now widespread)" },
+          { "word": "くらいの方が", "romaji": "kurai no hou ga", "meaning": "it's better when it's at the level of [X]" },
+          { "word": "笑えて", "reading": "わらえて", "romaji": "waraete", "meaning": "can laugh, is laughable (potential form て-form)" },
+          { "word": "いいんじゃない？", "romaji": "ii n janai?", "meaning": "isn't it better? isn't that good?" }
+        ],
+        "grammar": "〜の方が [adjective] = 'it's more [adj] when / it's better that'. くらいの方がいい = 'it's better at that level'. 笑える (can laugh / is laughable) uses the potential form emotionally — being able to laugh at something is a kind of freedom.",
+        "literal": "Trivial level's-the-one-that can-laugh good isn't-it?",
+        "example": {
+          "jp": "しょうもないことで笑えるのが、友達の証だ。",
+          "romaji": "Shoumonai koto de waraeru no ga, tomodachi no akashi da.",
+          "en": "Being able to laugh at trivial things together is proof of friendship."
+        }
+      }
+    },
+    {
+      "time": 198,
+      "jp": "きっと思い出して飲んだ時に美味しすぎんじゃない？",
+      "romaji": "Kitto omoidashite nonda toki ni umasu gin janai?",
+      "en": "When we drink while reminiscing about this, won't it taste amazing?",
+      "learn": {
+        "breakdown": [
+          { "word": "きっと", "romaji": "kitto", "meaning": "surely, certainly" },
+          { "word": "思い出して", "reading": "おもいだして", "romaji": "omoidashite", "meaning": "remembering, recalling (て-form of 思い出す)" },
+          { "word": "飲んだ時に", "reading": "のんだときに", "romaji": "nonda toki ni", "meaning": "when [we] drink" },
+          { "word": "美味しすぎ", "reading": "おいしすぎ", "romaji": "oishisugi", "meaning": "way too delicious (美味しい + すぎ)" },
+          { "word": "んじゃない？", "romaji": "n janai?", "meaning": "won't it? (rhetorical)" }
+        ],
+        "grammar": "〜すぎ means 'excessively / way too much'. 美味しすぎ = 'way too delicious'. Often used positively in colloquial speech. This image — drinking while looking back on memories — is quintessentially Japanese: お酒 (sake) and 思い出 (memories) are deeply linked culturally.",
+        "literal": "Surely remembering, drink-at-that-time, too-delicious won't-it?",
+        "example": {
+          "jp": "懐かしい話をしながら飲むと、美味しすぎる。",
+          "romaji": "Natsukashii hanashi wo shinagara nomu to, umasu giru.",
+          "en": "Drinking while sharing nostalgic stories makes it taste way too good."
+        }
+      }
+    },
+    {
+      "time": 204,
+      "jp": "なんてさ 強がりを何度も互いの背中に",
+      "romaji": "Nante sa tsuyogari wo nandomo otagai no senaka ni",
+      "en": "Things like that — let's stamp our bluster on each other's backs again and again",
+      "learn": {
+        "breakdown": [
+          { "word": "なんてさ", "romaji": "nante sa", "meaning": "things like that, you know — casual intro + さ particle" },
+          { "word": "強がり", "reading": "つよがり", "romaji": "tsuyogari", "meaning": "bluster, bravado, putting on a brave face" },
+          { "word": "を", "romaji": "wo", "meaning": "object particle" },
+          { "word": "何度も", "reading": "なんども", "romaji": "nandomo", "meaning": "many times, again and again" },
+          { "word": "互いの", "reading": "たがいの", "romaji": "tagai no", "meaning": "each other's, mutual" },
+          { "word": "背中", "reading": "せなか", "romaji": "senaka", "meaning": "back (of the body)" }
+        ],
+        "grammar": "強がり comes from 強がる (to put on a brave face, to bluster). The 〜がり noun form = 'the act of pretending to be strong'. This line continues into the next — 強がりを背中に付ける = stamping bravado onto each other's backs like handprints.",
+        "literal": "Things like that — bravado, many-times, each-other's back on",
+        "example": {
+          "jp": "強がりを言っても、本当は怖かった。",
+          "romaji": "Tsuyogari wo itte mo, hontou wa kowakatta.",
+          "en": "Even though I acted tough, I was really scared."
+        }
+      }
+    },
+    {
+      "time": 210,
+      "jp": "手形みたいにやりすぎなぐらい付け合っていよう",
+      "romaji": "Tegata mitai ni yarisugi na gurai tsuke atte iyou",
+      "en": "Like handprints, overdoing it — let's keep marking each other",
+      "learn": {
+        "breakdown": [
+          { "word": "手形", "reading": "てがた", "romaji": "tegata", "meaning": "handprint, hand stamp" },
+          { "word": "みたいに", "romaji": "mitai ni", "meaning": "like, similar to (casual simile)" },
+          { "word": "やりすぎ", "romaji": "yarisugi", "meaning": "overdoing it, going too far (やる + すぎ)" },
+          { "word": "なぐらい", "romaji": "na gurai", "meaning": "to the extent of, as much as that" },
+          { "word": "付け合って", "reading": "つけあって", "romaji": "tsuke atte", "meaning": "stamping on each other, marking each other (mutual 付ける)" },
+          { "word": "いよう", "romaji": "iyou", "meaning": "let's stay / let's keep (volitional of いる)" }
+        ],
+        "grammar": "付け合う is 付ける (to attach/stamp) in mutual form (〜合う = doing X to each other). The concrete image: stamping bravado on each other's backs like handprints — やりすぎなぐらい (to the point of overdoing it) makes it joyful and excessive.",
+        "literal": "Handprint like, overdoing-it to-the-extent-of, marking-each-other let's-keep",
+        "example": {
+          "jp": "やりすぎなぐらい練習したから、自信がある。",
+          "romaji": "Yarisugi na gurai renshuu shita kara, jishin ga aru.",
+          "en": "Because I practiced to the point of overdoing it, I'm confident."
+        }
+      }
+    },
+    {
+      "time": 219,
+      "jp": "そっけないくらいで僕らは丁度良いんじゃない？",
+      "romaji": "Sokkenai kurai de bokura wa choudo ii n janai?",
+      "en": "Isn't it just right for us to be a little cold and distant?",
+      "learn": {
+        "breakdown": [
+          { "word": "そっけない", "romaji": "sokkenai", "meaning": "cold, curt, indifferent, standoffish" },
+          { "word": "くらいで", "romaji": "kurai de", "meaning": "at the level of, to that extent (degree marker)" },
+          { "word": "僕ら", "reading": "ぼくら", "romaji": "bokura", "meaning": "we, us (masculine, casual)" },
+          { "word": "丁度良い", "reading": "ちょうどいい", "romaji": "choudo ii", "meaning": "just right, perfect amount" },
+          { "word": "んじゃない？", "romaji": "n janai?", "meaning": "isn't it? (casual rhetorical question tag)" }
+        ],
+        "grammar": "Chorus repeat. After the bridge (tangled cables, handprints, bravado), そっけない no longer sounds like emotional distance — it sounds like comfortable shorthand between two people who know each other completely.",
+        "literal": "Cold-and-indifferent level-of, we just-right isn't-it?",
+        "example": {
+          "jp": "これくらいの距離感がちょうどいい。",
+          "romaji": "Kore kurai no kyori-kan ga choudo ii.",
+          "en": "This level of distance between us is just right."
+        }
+      }
+    },
+    {
+      "time": 223,
+      "jp": "きっと涙も言葉もおまけでも良いんじゃない？",
+      "romaji": "Kitto namida mo kotoba mo omake demo ii n janai?",
+      "en": "Surely it's fine if tears and words are just extras, right?",
+      "learn": {
+        "breakdown": [
+          { "word": "きっと", "romaji": "kitto", "meaning": "surely, certainly (speaker's confidence)" },
+          { "word": "涙", "reading": "なみだ", "romaji": "namida", "meaning": "tears" },
+          { "word": "も〜も", "romaji": "mo~mo", "meaning": "both X and Y (inclusive listing)" },
+          { "word": "言葉", "reading": "ことば", "romaji": "kotoba", "meaning": "words, language" },
+          { "word": "おまけ", "romaji": "omake", "meaning": "bonus, extra, freebie — something nice but not essential" },
+          { "word": "でもいい", "romaji": "demo ii", "meaning": "it's okay even if [X]" }
+        ],
+        "grammar": "Chorus repeat. The song has now shown so many ways this bond manifests — arguments, blushing faces, handprints — that calling tears and words おまけ (extras) feels earned rather than dismissive.",
+        "literal": "Surely tears also words also bonus even-if okay isn't-it?",
+        "example": {
+          "jp": "言葉がなくても、気持ちは伝わる。",
+          "romaji": "Kotoba ga nakute mo, kimochi wa tsutawaru.",
+          "en": "Even without words, feelings get through."
+        }
+      }
+    },
+    {
+      "time": 228,
+      "jp": "多分世界が次のフェーズへ行こうと見つけてみせるよ",
+      "romaji": "Tabun sekai ga tsugi no feezu e ikou to mitsukete miseru yo",
+      "en": "As the world moves on to the next phase, I'll make sure we find it",
+      "learn": {
+        "breakdown": [
+          { "word": "多分", "reading": "たぶん", "romaji": "tabun", "meaning": "probably, maybe" },
+          { "word": "世界", "reading": "せかい", "romaji": "sekai", "meaning": "world" },
+          { "word": "次", "reading": "つぎ", "romaji": "tsugi", "meaning": "next" },
+          { "word": "フェーズ", "romaji": "feezu", "meaning": "phase (English loanword)" },
+          { "word": "へ", "romaji": "e", "meaning": "particle — direction ('toward', 'to')" },
+          { "word": "行こう", "reading": "いこう", "romaji": "ikou", "meaning": "let's go (volitional of 行く)" },
+          { "word": "見つけてみせる", "reading": "みつけてみせる", "romaji": "mitsukete miseru", "meaning": "will definitely find — just watch me (みつける + てみせる)" }
+        ],
+        "grammar": "Repeat of the key resolve line. 〜てみせる = strong determination. The same words now carry the full emotional weight of everything between verse 1 and the final chorus.",
+        "literal": "Probably world next phase toward going, will-definitely-find",
+        "example": {
+          "jp": "絶対に見つけてみせるよ。",
+          "romaji": "Zettai ni mitsukete miseru yo.",
+          "en": "I'll definitely find it — just watch me."
+        }
+      }
+    },
+    {
+      "time": 235,
+      "jp": "いや嫌でも見つかるんだろうよ",
+      "romaji": "Iya, iya demo mitsukaru n darou yo",
+      "en": "Actually, it'll turn up whether we like it or not",
+      "learn": {
+        "breakdown": [
+          { "word": "いや", "romaji": "iya", "meaning": "no, actually, well — discourse marker walking back the previous statement" },
+          { "word": "嫌でも", "reading": "いやでも", "romaji": "iya demo", "meaning": "whether we like it or not, inevitably" },
+          { "word": "見つかる", "reading": "みつかる", "romaji": "mitsukaru", "meaning": "to be found, to turn up (intransitive)" },
+          { "word": "んだろう", "romaji": "n darou", "meaning": "probably is the case (explanatory + conjecture)" },
+          { "word": "よ", "romaji": "yo", "meaning": "emphasis particle" }
+        ],
+        "grammar": "Repeat. The self-correction (いや — 'actually') gives vulnerability: 'I said I'd find it, but... it'll just be found on its own'. This humility is a core part of the song's emotional honesty.",
+        "literal": "Actually, even-if-reluctant, will-be-found probably (emphasis)",
+        "example": {
+          "jp": "嫌でも、いつか向き合わなければならない。",
+          "romaji": "Iya demo, itsuka mukiawa nakereba naranai.",
+          "en": "Whether we like it or not, we'll have to face it someday."
+        }
+      }
+    },
+    {
+      "time": 238,
+      "jp": "あっけないくらい早い時間も良いんじゃない？",
+      "romaji": "Akkenai kurai hayai jikan mo ii n janai?",
+      "en": "Isn't it fine that time passes by so surprisingly fast?",
+      "learn": {
+        "breakdown": [
+          { "word": "あっけない", "romaji": "akkenai", "meaning": "surprisingly brief, over before you know it, anticlimactically quick" },
+          { "word": "くらい", "romaji": "kurai", "meaning": "to the extent of, as much as" },
+          { "word": "早い", "reading": "はやい", "romaji": "hayai", "meaning": "fast, quick [い-adjective]" },
+          { "word": "時間", "reading": "じかん", "romaji": "jikan", "meaning": "time" },
+          { "word": "も", "romaji": "mo", "meaning": "also, even" },
+          { "word": "いいんじゃない？", "romaji": "ii n janai?", "meaning": "isn't it okay? isn't it fine?" }
+        ],
+        "grammar": "Repeat. Near the end of the song, あっけない (surprisingly quick) takes on new weight — the whole song has also passed quickly, yet the tattoo endures.",
+        "literal": "Surprisingly-quick to-the-extent-of fast time also okay isn't-it?",
+        "example": {
+          "jp": "楽しい時間はあっけないくらい過ぎてしまう。",
+          "romaji": "Tanoshii jikan wa akkenai kurai sugite shimau.",
+          "en": "Fun times pass by surprisingly quickly."
+        }
+      }
+    },
+    {
+      "time": 243,
+      "jp": "きっとありふれてないくらいが大切なんじゃない？",
+      "romaji": "Kitto arifurete nai kurai ga taisetsu na n janai?",
+      "en": "Surely something so uncommon is exactly what makes it precious, right?",
+      "learn": {
+        "breakdown": [
+          { "word": "きっと", "romaji": "kitto", "meaning": "surely, certainly" },
+          { "word": "ありふれてない", "romaji": "arifurete nai", "meaning": "not commonplace, not ordinary, rare (negative of ありふれる)" },
+          { "word": "くらいが", "romaji": "kurai ga", "meaning": "it is precisely that extent which..." },
+          { "word": "大切", "reading": "たいせつ", "romaji": "taisetsu", "meaning": "precious, important, dear" },
+          { "word": "なんじゃない？", "romaji": "na n janai?", "meaning": "isn't it? (rhetorical)" }
+        ],
+        "grammar": "Repeat. By the final chorus, ありふれてない (not commonplace) refers not to the world but to this specific bond — there is no other like it.",
+        "literal": "Surely not-commonplace extent is precious isn't-it?",
+        "example": {
+          "jp": "ありふれてないものだからこそ、大切にしたい。",
+          "romaji": "Arifurete nai mono dakara koso, taisetsu ni shitai.",
+          "en": "It's precisely because it's rare that I want to treasure it."
+        }
+      }
+    },
+    {
+      "time": 248,
+      "jp": "なんてさ本気で思っちゃう心の恥ずかしさが僕らだけにあるTATTOO",
+      "romaji": "Nante sa honki de omochau kokoro no hazukashisa ga bokura dake ni aru TATTOO",
+      "en": "Things like that — the embarrassment of genuinely believing it is a TATTOO that belongs only to us",
+      "learn": {
+        "breakdown": [
+          { "word": "なんてさ", "romaji": "nante sa", "meaning": "things like that, you know — casual dismissal + さ particle" },
+          { "word": "本気で", "reading": "ほんきで", "romaji": "honki de", "meaning": "seriously, genuinely, for real" },
+          { "word": "思っちゃう", "reading": "おもっちゃう", "romaji": "omocchau", "meaning": "can't help but think (〜てしまう contracted)" },
+          { "word": "心", "reading": "こころ", "romaji": "kokoro", "meaning": "heart, mind" },
+          { "word": "恥ずかしさ", "reading": "はずかしさ", "romaji": "hazukashisa", "meaning": "embarrassment, the feeling of shame" },
+          { "word": "僕らだけに", "reading": "ぼくらだけに", "romaji": "bokura dake ni", "meaning": "only in us, belonging to us alone" },
+          { "word": "TATTOO", "romaji": "TATTOO", "meaning": "tattoo — the title, permanent mark, central metaphor" }
+        ],
+        "grammar": "The title line — final time. After the whole journey, this line is both conclusion and revelation. The 'embarrassment' of sincerely believing in something IS the tattoo: genuine feeling that cannot be erased.",
+        "literal": "Things like that — genuinely end-up-thinking, heart's embarrassment that only in us exists TATTOO",
+        "example": {
+          "jp": "本気で思っちゃうことが、本物の証だ。",
+          "romaji": "Honki de omochau koto ga, honmono no akashi da.",
+          "en": "The things you can't help but genuinely believe are proof of something real."
+        }
+      }
+    },
+    {
+      "time": 263,
+      "jp": "消えない 消さない 消させやしない",
+      "romaji": "Kienai kesanai kesase ya shinai",
+      "en": "Won't fade, won't erase it, won't let it be erased",
+      "learn": {
+        "breakdown": [
+          { "word": "消えない", "reading": "きえない", "romaji": "kienai", "meaning": "won't fade (intransitive negative)" },
+          { "word": "消さない", "reading": "けさない", "romaji": "kesanai", "meaning": "won't erase (transitive negative)" },
+          { "word": "消させやしない", "reading": "けさせやしない", "romaji": "kesase ya shinai", "meaning": "absolutely won't allow it to be erased (emphatic)" }
+        ],
+        "grammar": "Final repetition. The three-verb escalation (passive → active → causative) ends the song with total defiance. The tattoo — this embarrassing, irreplaceable, mutual sincerity — will not be touched.",
+        "literal": "Won't-fade, won't-erase, absolutely-won't-allow-to-be-erased",
+        "example": {
+          "jp": "誰にも消させやしない。",
+          "romaji": "Dare ni mo kesase ya shinai.",
+          "en": "I won't let anyone erase it."
+        }
+      }
+    },
+    {
+      "time": 268,
+      "jp": "大丈夫、 痛みにとっても弱いから",
+      "romaji": "Daijoubu, itami ni tottemo yowai kara",
+      "en": "It's okay, because I'm very weak when it comes to pain",
+      "learn": {
+        "breakdown": [
+          { "word": "大丈夫", "reading": "だいじょうぶ", "romaji": "daijoubu", "meaning": "it's okay" },
+          { "word": "痛み", "reading": "いたみ", "romaji": "itami", "meaning": "pain" },
+          { "word": "に", "romaji": "ni", "meaning": "particle — direction/target" },
+          { "word": "とっても", "romaji": "tottemo", "meaning": "very, extremely" },
+          { "word": "弱い", "reading": "よわい", "romaji": "yowai", "meaning": "weak" },
+          { "word": "から", "romaji": "kara", "meaning": "because" }
+        ],
+        "grammar": "The outro returns to the opening line. Japanese storytelling values 循環 (cyclical structure): ending where you began signals transformation, not stagnation. 大丈夫 as an admission of weakness is now also a complete acceptance of it.",
+        "literal": "Okay — toward pain very weak, because",
+        "example": {
+          "jp": "弱くてもいい。それが僕らだから。",
+          "romaji": "Yowakute mo ii. Sore ga bokura dakara.",
+          "en": "It's okay to be weak. That's just who we are."
+        }
+      }
+    },
+    {
+      "time": 273,
+      "jp": "大丈夫、 憧れは今日も憧れのまんま",
+      "romaji": "Daijoubu, akogare wa kyou mo akogare no manma",
+      "en": "It's okay, even today our yearnings stay just as yearnings",
+      "learn": {
+        "breakdown": [
+          { "word": "大丈夫", "reading": "だいじょうぶ", "romaji": "daijoubu", "meaning": "it's okay" },
+          { "word": "憧れ", "reading": "あこがれ", "romaji": "akogare", "meaning": "longing, yearning" },
+          { "word": "今日も", "reading": "きょうも", "romaji": "kyou mo", "meaning": "even today, today as well" },
+          { "word": "まんま", "romaji": "manma", "meaning": "as-is, just as it is" }
+        ],
+        "grammar": "Subtle lyric change from the opening: 時に (sometimes) → 今日も (even today). One small word transforms the meaning entirely. The acceptance is no longer occasional — it's permanent.",
+        "literal": "Okay — yearning, even today, as yearning's as-is",
+        "example": {
+          "jp": "今日も変わらず、あなたへの憧れは消えない。",
+          "romaji": "Kyou mo kawarazu, anata e no akogare wa kienai.",
+          "en": "Even today, unchanged, my longing for you won't fade."
+        }
+      }
+    }
   ],
   "vocab": [
-    { "word": "大丈夫", "reading": "だいじょうぶ", "meaning": "it's okay, don't worry, no problem" },
-    { "word": "憧れ", "reading": "あこがれ", "meaning": "longing, yearning, admiration" },
-    { "word": "間柄", "reading": "あいだがら", "meaning": "relationship, terms between people" },
-    { "word": "命からがら", "reading": "いのちからがら", "meaning": "barely escaping with one's life" },
-    { "word": "不器用", "reading": "ぶきよう", "meaning": "clumsy, awkward, unskillful" },
-    { "word": "丁度良い", "reading": "ちょうどよい", "meaning": "just right, perfect amount" },
-    { "word": "かけがえない", "reading": "かけがえない", "meaning": "irreplaceable, invaluable" },
-    { "word": "情け容赦無い", "reading": "なさけようしゃない", "meaning": "merciless, ruthless, no mercy" },
-    { "word": "拗れる", "reading": "こじれる", "meaning": "to get complicated, to become tangled" },
-    { "word": "恥ずかしさ", "reading": "はずかしさ", "meaning": "embarrassment, shyness" },
-    { "word": "そっけない", "reading": "そっけない", "meaning": "cold, indifferent, curt" },
-    { "word": "強がり", "reading": "つよがり", "meaning": "pretending to be strong, bravado" }
+    { "word": "大丈夫", "reading": "だいじょうぶ", "romaji": "daijoubu", "meaning": "It's okay / I'm fine" },
+    { "word": "痛み", "reading": "いたみ", "romaji": "itami", "meaning": "pain" },
+    { "word": "憧れ", "reading": "あこがれ", "romaji": "akogare", "meaning": "longing, yearning" },
+    { "word": "間柄", "reading": "あいだがら", "romaji": "aidagara", "meaning": "relationship, the nature of how two people relate" },
+    { "word": "命からがら", "reading": "いのちからがら", "romaji": "inochi karagara", "meaning": "barely escaping with one's life" },
+    { "word": "不器用", "reading": "ぶきよう", "romaji": "bukiyou", "meaning": "clumsy, awkward" },
+    { "word": "そっけない", "reading": "そっけない", "romaji": "sokkenai", "meaning": "cold, curt, indifferent" },
+    { "word": "見せびらかす", "reading": "みせびらかす", "romaji": "misebikasu", "meaning": "to show off, to flaunt" },
+    { "word": "かけがえない", "reading": "かけがえない", "romaji": "kakegae nai", "meaning": "irreplaceable, invaluable" },
+    { "word": "拗れる", "reading": "こじれる", "romaji": "kojirete", "meaning": "to get complicated, to become tangled" },
+    { "word": "意地でも", "reading": "いじでも", "romaji": "iji demo", "meaning": "stubbornly, out of sheer will" },
+    { "word": "恥ずかしさ", "reading": "はずかしさ", "romaji": "hazukashisa", "meaning": "embarrassment, sense of shame" },
+    { "word": "強がり", "reading": "つよがり", "romaji": "tsuyogari", "meaning": "bluster, putting on a brave face" },
+    { "word": "爆笑", "reading": "ばくしょう", "romaji": "bakushou", "meaning": "roaring laughter" },
+    { "word": "ありふれてない", "reading": "ありふれてない", "romaji": "arifurete nai", "meaning": "not commonplace, rare, uncommon" },
+    { "word": "あっけない", "reading": "あっけない", "romaji": "akkenai", "meaning": "surprisingly brief, over before you know it" },
+    { "word": "丁度良い", "reading": "ちょうどいい", "romaji": "choudo ii", "meaning": "just right, perfect amount" },
+    { "word": "慣れっこ", "reading": "なれっこ", "romaji": "narekko", "meaning": "completely used to, totally accustomed" },
+    { "word": "情け容赦無い", "reading": "なさけようしゃない", "romaji": "nasake yousha nai", "meaning": "merciless, without pity or mercy" }
   ]
 }
