@@ -178,14 +178,32 @@
   50%       { box-shadow: 0 0 0 8px rgba(232, 69, 106, 0); }
 }
 
-.sync-tap-hint {
-  font-size: 0.82rem;
-  color: #a0aabf;
+.sync-tap-progress {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #e8456a;
+  white-space: nowrap;
 }
 
-.sync-tap-hint em {
+.sync-tap-next {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.82rem;
+}
+
+.sync-tap-next__label {
+  color: #6878a0;
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  white-space: nowrap;
+}
+
+.sync-tap-next__jp {
   color: #fff;
-  font-style: normal;
+  font-size: 0.95rem;
 }
 
 .sync-tap-cancel {

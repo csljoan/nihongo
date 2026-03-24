@@ -20,6 +20,14 @@ export default function SongPlayer({ song, onBack, onComplete }) {
   const [currentTime, setCurrentTime] = useState(0);
   const [offset, setOffset] = useState(0);
   const [tapMode, setTapMode] = useState(false);
+  const [tapIdx, setTapIdx] = useState(0);
+  const tapTimestampsRef = useRef([]);
+  const [savedTimestamps, setSavedTimestamps] = useState(() => {
+    try {
+      const raw = localStorage.getItem(`sync-${song.id}`);
+      return raw ? JSON.parse(raw) : null;
+    } catch { return null; }
+  });
   const [popup, setPopup] = useState(null);
   const [showQuiz, setShowQuiz] = useState(false);
   const [openLearnIdx, setOpenLearnIdx] = useState(null);
@@ -28,8 +36,9 @@ export default function SongPlayer({ song, onBack, onComplete }) {
 
   // Compute active lyric index accounting for offset
   const adjustedTime = currentTime + offset;
-  const activeIdx = song.lyrics.reduce((acc, line, i) => {
-    return adjustedTime >= line.time ? i : acc;
+  const activeIdx = tapMode ? -1 : song.lyrics.reduce((acc, line, i) => {
+    const t = savedTimestamps ? savedTimestamps[i] : line.time;
+    return adjustedTime >= t ? i : acc;
   }, -1);
 
   useEffect(() => {
@@ -74,12 +83,35 @@ export default function SongPlayer({ song, onBack, onComplete }) {
     setPopup({ vocab, position });
   }, []);
 
+  function startTapSync() {
+    if (!playerRef.current) return;
+    tapTimestampsRef.current = [];
+    setTapIdx(0);
+    setTapMode(true);
+    playerRef.current.seekTo(0);
+    playerRef.current.playVideo();
+  }
+
   function handleTap() {
     if (!playerRef.current) return;
-    const videoTime = playerRef.current.getCurrentTime();
-    const firstLyricTime = song.lyrics[0].time;
-    setOffset(videoTime - firstLyricTime);
+    const t = playerRef.current.getCurrentTime();
+    tapTimestampsRef.current.push(t);
+    const next = tapIdx + 1;
+    if (next < song.lyrics.length) {
+      setTapIdx(next);
+    } else {
+      const ts = [...tapTimestampsRef.current];
+      localStorage.setItem(`sync-${song.id}`, JSON.stringify(ts));
+      setSavedTimestamps(ts);
+      setTapMode(false);
+      setTapIdx(0);
+    }
+  }
+
+  function cancelTapSync() {
     setTapMode(false);
+    setTapIdx(0);
+    tapTimestampsRef.current = [];
   }
 
   function handleToggleLearn(idx) {
@@ -130,16 +162,18 @@ export default function SongPlayer({ song, onBack, onComplete }) {
         <div className="sync-tap-area">
           {tapMode ? (
             <>
-              <span className="sync-tap-hint">
-                Tap when you hear: <em>「{song.lyrics[0].jp}」</em>
-              </span>
+              <span className="sync-tap-progress">{tapIdx + 1} / {song.lyrics.length}</span>
+              <div className="sync-tap-next">
+                <span className="sync-tap-next__label">Tap for:</span>
+                <span className="sync-tap-next__jp">{song.lyrics[tapIdx].jp}</span>
+              </div>
               <button className="sync-tap-btn sync-tap-btn--active" onClick={handleTap}>
-                TAP NOW
+                TAP
               </button>
-              <button className="sync-tap-cancel" onClick={() => setTapMode(false)}>Cancel</button>
+              <button className="sync-tap-cancel" onClick={cancelTapSync}>Cancel</button>
             </>
           ) : (
-            <button className="sync-tap-btn" onClick={() => setTapMode(true)}>
+            <button className="sync-tap-btn" onClick={startTapSync}>
               🎵 Tap to Sync
             </button>
           )}
