@@ -43,7 +43,11 @@ const LyricLine = forwardRef(function LyricLine(
 
   return (
     <>
-      <tr ref={ref} className={`lyric-row${active ? ' lyric-row--active' : ''}`}>
+      <tr
+        ref={ref}
+        className={`lyric-row${active ? ' lyric-row--active' : ''}${hasLearn ? ' lyric-row--learnable' : ''}${learnOpen ? ' lyric-row--learn-open' : ''}`}
+        onClick={hasLearn ? onToggleLearn : undefined}
+      >
         <td className="lyric-cell lyric-cell--jp">
           {tokens.map((tok, i) =>
             tok.vocab ? (
@@ -59,13 +63,9 @@ const LyricLine = forwardRef(function LyricLine(
         <td className="lyric-cell lyric-cell--en">{line.en}</td>
         <td className="lyric-cell lyric-cell--learn-btn">
           {hasLearn && (
-            <button
-              className={`learn-toggle${learnOpen ? ' learn-toggle--open' : ''}`}
-              onClick={onToggleLearn}
-              title="Learn this line"
-            >
-              🎓
-            </button>
+            <span className={`learn-indicator${learnOpen ? ' learn-indicator--open' : ''}`}>
+              {learnOpen ? '▲' : '▼'}
+            </span>
           )}
         </td>
       </tr>
@@ -83,57 +83,50 @@ const LyricLine = forwardRef(function LyricLine(
 function LearnPanel({ learn }) {
   return (
     <div className="learn-panel">
-      <section className="learn-section">
-        <h4 className="learn-section__title">Word Breakdown</h4>
-        <div className="breakdown-list">
-          {learn.breakdown.map((item, i) => (
-            <div key={i} className="breakdown-item">
-              <span className="breakdown-word">{item.word}</span>
-              {item.reading && (
-                <>
-                  <span className="breakdown-reading">（{item.reading}）</span>
-                  <span className="breakdown-romaji">{toRomaji(item.reading)}</span>
-                </>
-              )}
-              <span className="breakdown-eq">=</span>
-              <span className="breakdown-meaning">{item.meaning}</span>
-            </div>
-          ))}
-        </div>
+      <section className="learn-section learn-section--breakdown">
+        <h4 className="learn-section__title">Breakdown</h4>
+        <table className="breakdown-table">
+          <thead>
+            <tr>
+              <th>Word</th>
+              <th>Reading</th>
+              <th>Romaji</th>
+              <th>Meaning</th>
+            </tr>
+          </thead>
+          <tbody>
+            {learn.breakdown.map((item, i) => (
+              <tr key={i}>
+                <td className="breakdown-table__word">{item.word}</td>
+                <td className="breakdown-table__reading">{item.reading || '—'}</td>
+                <td className="breakdown-table__romaji">{item.reading ? toRomaji(item.reading) : '—'}</td>
+                <td className="breakdown-table__meaning">{item.meaning}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
       </section>
 
       <section className="learn-section">
-        <h4 className="learn-section__title">Grammar Note</h4>
+        <h4 className="learn-section__title">Grammar</h4>
         <p className="learn-grammar">{learn.grammar}</p>
       </section>
 
       <section className="learn-section">
-        <h4 className="learn-section__title">Natural vs Literal</h4>
-        <div className="translation-compare">
-          <div className="translation-compare__col">
-            <div className="translation-compare__label">Literal</div>
-            <div className="translation-compare__text translation-compare__text--literal">
-              "{learn.literal}"
-            </div>
-          </div>
-          <div className="translation-compare__arrow">→</div>
-          <div className="translation-compare__col">
-            <div className="translation-compare__label">Natural</div>
-            <div className="translation-compare__text translation-compare__text--natural">
-              "{learn.example ? learn.example.en : ''}"
-            </div>
-          </div>
-        </div>
+        <h4 className="learn-section__title">Literal</h4>
+        <p className="learn-literal">"{learn.literal}"</p>
       </section>
 
-      <section className="learn-section">
-        <h4 className="learn-section__title">Example Sentence</h4>
-        <div className="example-sentence">
-          <div className="example-sentence__jp">{learn.example.jp}</div>
-          <div className="example-sentence__romaji">{learn.example.romaji}</div>
-          <div className="example-sentence__en">{learn.example.en}</div>
-        </div>
-      </section>
+      {learn.example && (
+        <section className="learn-section">
+          <h4 className="learn-section__title">Example</h4>
+          <div className="example-sentence">
+            <div className="example-sentence__jp">{learn.example.jp}</div>
+            <div className="example-sentence__romaji">{learn.example.romaji}</div>
+            <div className="example-sentence__en">{learn.example.en}</div>
+          </div>
+        </section>
+      )}
     </div>
   );
 }
