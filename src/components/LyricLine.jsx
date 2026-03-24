@@ -99,7 +99,7 @@ function LearnPanel({ learn }) {
               <tr key={i}>
                 <td className="breakdown-table__word">{item.word}</td>
                 <td className="breakdown-table__reading">{item.reading || '—'}</td>
-                <td className="breakdown-table__romaji">{item.reading ? toRomaji(item.reading) : '—'}</td>
+                <td className="breakdown-table__romaji">{item.romaji || (item.reading ? toRomaji(item.reading) : '—')}</td>
                 <td className="breakdown-table__meaning">{item.meaning}</td>
               </tr>
             ))}
